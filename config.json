@@ -1,0 +1,57 @@
+{
+  "triagers": {
+    "Daniel Holbert": {
+      "bzmail": ""
+    },
+    "Cameron McCormack": {
+      "bzmail": ""
+    },
+    "Boris Chiou": {
+      "bzmail": ""
+    },
+    "Ting-Yu Lin": {
+      "bzmail": ""
+    },
+    "David Baron": {
+      "bzmail": ""
+    },
+    "Mats Palmgren": {
+      "bzmail": ""
+    },
+    "Jonathan Kew": {
+      "bzmail": ""
+    },
+    "Jonathan Watt": {
+      "bzmail": ""
+    },
+    "Emilio Cobos Alvarez": {
+      "bzmail": ""
+    },
+    "Hiro Ikezoe": {
+      "bzmail": ""
+    },
+    "Dan Glastonbury": {
+      "bzmail": ""
+    }
+  },
+  "components": [
+    "animation",
+    "layout-block-inline",
+    "layout-columns",
+    "layout-flex",
+    "layout-floats",
+    "layout-form-controls",
+    "layout-general",
+    "layout-generated",
+    "layout-grid",
+    "layout-overflow",
+    "layout-positioned",
+    "layout-replaced",
+    "layout-ruby",
+    "layout-tables",
+    "layout-text",
+    "printing",
+    "style-system",
+    "svg"
+  ]
+}
