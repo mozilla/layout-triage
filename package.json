@@ -1,13 +1,14 @@
 {
   "name": "layout-triage",
   "version": "1.0.0",
-  "description": "",
+  "description": "Script for updating Firefox Platform Layout triage rotation calendar.",
   "main": "index.js",
   "scripts": {
-    "update": "node index.js update"
+    "update": "node index.js update",
+    "reset": "node index.js reset"
   },
   "author": "Sean Voisen",
-  "license": "MIT",
+  "license": "GPL",
   "dependencies": {
     "ical-toolkit": "^1.0.9"
   }
