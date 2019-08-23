@@ -5,6 +5,7 @@ const DIST_DIR = 'dist';
 const CONFIG_FILE = 'config.json';
 const HISTORY_FILE = 'history.json';
 const TRIAGERS_KEY = 'triagers';
+const ICAL_FILE = 'layout-triage.ics';
 const INDENT = '  ';
 const DUTY_START_DATES_KEY = 'duty-start-dates';
 const CYCLE_LENGTH_DAYS = 7;
@@ -109,6 +110,34 @@ function getLastDutyCycle({ dutyCycleHistory }) {
   }
 }
 
+function generateICALFile({ dutyCycleHistory }) {
+  const builder = ical.createIcsFileBuilder();
+
+  builder.calname = 'Layout Triage';
+  builder.timezone = 'America/Los_Angeles';
+  builder.tzid = 'America/Los_Angeles';
+  builder.additionalTags = {
+    'REFRESH-INTERVAL': 'VALUE=DURATION:P1H',
+    'X-WR-CALDESC': 'Layout Triage'
+  };
+
+  for (let dutyCycleDate in dutyCycleHistory) {
+    const triagers = Object.keys(dutyCycleHistory[dutyCycleDate]);
+    const dutyCycleDateMs = new Date(dutyCycleDate).getTime();
+
+    builder.events.push({
+      start: new Date(dutyCycleDateMs),
+      end: new Date(dutyCycleDateMs + CYCLE_LENGTH_MS),
+      summary: `Triage Duty: ${triagers.join(', ')}`,
+      description: ``,
+      allDay: true
+    });
+  }
+
+  const data = builder.toString();
+  fs.writeFileSync(`${DIST_DIR}/${ICAL_FILE}`, data);
+}
+
 function generateDutyCycle({ dutyCycleHistory, triagersData, components }) {
   let { lastDutyDate, lastTriagePair } = getLastDutyCycle({ dutyCycleHistory })
   let lastTriagerIdx = -1;
@@ -148,16 +177,21 @@ function runUpdate() {
   const { dutyCycleHistory } = JSON.parse(fs.readFileSync(HISTORY_FILE));
   const { date, dutyCycle } = generateDutyCycle({ dutyCycleHistory, triagersData, components });
 
-  dutyCycleHistory[date] = dutyCycle;
-  writeToHistory({ dutyCycleHistory });
-
-  const newDutyCycleTriagers = Object.keys(dutyCycle);
-  newDutyCycleTriagers.forEach(triager => {
-    const components = dutyCycle[triager];
-    components.forEach(component => {
-      appendDutyCycle({ component, date, triagerName: triager, triagerData: triagersData[triager] });
+  function updateJSONCalendars() {
+    const newDutyCycleTriagers = Object.keys(dutyCycle);
+    newDutyCycleTriagers.forEach(triager => {
+      const components = dutyCycle[triager];
+      components.forEach(component => {
+        appendDutyCycle({ component, date, triagerName: triager, triagerData: triagersData[triager] });
+      });
     });
-  });
+  }
+
+  dutyCycleHistory[date] = dutyCycle;
+
+  updateJSONCalendars();
+  writeToHistory({ dutyCycleHistory });
+  generateICALFile({ dutyCycleHistory });
 }
 
 /**
@@ -177,6 +211,7 @@ function runReset() {
   });
 
   writeToHistory({ dutyCycleHistory: {} });
+  generateICALFile({ dutyCycleHistory: {} });
 }
 
 let args = process.argv.slice(2);
