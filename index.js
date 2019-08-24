@@ -1,5 +1,6 @@
 const fs = require('fs');
 const ical = require('ical-toolkit');
+const ghpages = require('gh-pages');
 
 const DIST_DIR = 'dist';
 const CONFIG_FILE = 'config.json';
@@ -214,6 +215,16 @@ function runReset() {
   generateICALFile({ dutyCycleHistory: {} });
 }
 
+function runPublish() {
+  ghpages.publish(DIST_DIR, function (err) {
+    if (err) {
+      console.error('There was an error during publishing.');
+    } else {
+      console.log('Publish to GitHub was successful.');
+    }
+  });
+}
+
 let args = process.argv.slice(2);
 let command = args.shift();
 
@@ -225,6 +236,11 @@ switch (command) {
 
   case 'reset': {
     runReset();
+    break;
+  }
+
+  case 'publish': {
+    runPublish();
     break;
   }
 }

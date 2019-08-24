@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "update": "node index.js update",
-    "reset": "node index.js reset"
+    "reset": "node index.js reset",
+    "publish": "node index.js publish"
   },
   "author": "Sean Voisen",
-  "license": "GPL",
+  "license": "MIT",
   "dependencies": {
-    "ical-toolkit": "^1.0.9"
+    "ical-toolkit": "^1.0.9",
+    "gh-pages": "^2.1.1"
   }
 }
