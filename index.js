@@ -34,12 +34,12 @@ function writeToHistory(json) {
  * @param {Date} date 
  */
 function getLastMonday(date) {
-  const day = date.getDay();
-  const diff = date.getDate() - day + (day === 0 ? -6 : 1);
-  const monday = new Date();
-  monday.setDate(diff);
+  const day = date.getDay() || 7;  
+  if (day !== 1) {
+    date.setHours(-24 * (day - 1)); 
+  }
 
-  return monday;
+  return date;
 }
 
 function appendDutyCycle({ component, date, triagerName, triagerData }) {
@@ -58,6 +58,10 @@ function appendDutyCycle({ component, date, triagerName, triagerData }) {
   }
 
   dutyStartDates[date] = triagerName;
+
+  if (!fs.existsSync(DIST_DIR)){
+    fs.mkdirSync(DIST_DIR);
+  }
 
   data = JSON.stringify(calendar, undefined, '  ');
   fs.writeFileSync(filePath, data);
@@ -111,7 +115,7 @@ function getLastDutyCycle({ dutyCycleHistory }) {
   }
 }
 
-function generateICALFile({ dutyCycleHistory }) {
+function generateICALFile({ dutyCycleHistory, components }) {
   const builder = ical.createIcsFileBuilder();
 
   builder.calname = 'Layout Triage';
@@ -123,14 +127,18 @@ function generateICALFile({ dutyCycleHistory }) {
   };
 
   for (let dutyCycleDate in dutyCycleHistory) {
-    const triagers = Object.keys(dutyCycleHistory[dutyCycleDate]);
+    const dutyCycle = dutyCycleHistory[dutyCycleDate];
+    const triagerNames = Object.keys(dutyCycle);
     const dutyCycleDateMs = new Date(dutyCycleDate).getTime();
+
+    const triager0Components = Array.prototype.concat.apply([], dutyCycle[triagerNames[0]].map(component => components[component])).join(', ');
+    const triager1Components = Array.prototype.concat.apply([], dutyCycle[triagerNames[1]].map(component => components[component])).join(', ');
 
     builder.events.push({
       start: new Date(dutyCycleDateMs),
       end: new Date(dutyCycleDateMs + CYCLE_LENGTH_MS),
-      summary: `Triage Duty: ${triagers.join(', ')}`,
-      description: ``,
+      summary: `Triage Duty: ${triagerNames.join(', ')}`,
+      description: `${triagerNames[0]}: ${triager0Components}\n${triagerNames[1]}: ${triager1Components}`,
       allDay: true
     });
   }
@@ -139,10 +147,11 @@ function generateICALFile({ dutyCycleHistory }) {
   fs.writeFileSync(`${DIST_DIR}/${ICAL_FILE}`, data);
 }
 
-function generateDutyCycle({ dutyCycleHistory, triagersData, components }) {
+function generateDutyCycle({ dutyCycleHistory, triagers, components }) {
   let { lastDutyDate, lastTriagePair } = getLastDutyCycle({ dutyCycleHistory })
   let lastTriagerIdx = -1;
-  const triagers = Object.keys(triagersData);
+  const triagerNames = Object.keys(triagers);
+  const componentNames = Object.keys(components);
   const createDateString = date => {
     return date.toISOString().replace(/T.*$/, '');
   }
@@ -151,18 +160,18 @@ function generateDutyCycle({ dutyCycleHistory, triagersData, components }) {
     console.warn('No existing duty cycle history. Generating first cycle.');
     lastDutyDate = createDateString(getLastMonday(new Date()));
   } else {
-    lastTriagerIdx = triagers.indexOf(lastTriagePair[1]);
+    lastTriagerIdx = triagerNames.indexOf(lastTriagePair[1]);
     if (lastTriagerIdx === -1) {
       console.warn(`Unable to find triager named ${lastTriagePair[1]} in config. Starting over from first triager.`);
     }
   }
 
-  const nextTriagerIdx = (lastTriagerIdx + 1) % triagers.length;
+  const nextTriagerIdx = (lastTriagerIdx + 1) % triagerNames.length;
   const nextDutyDateMS = new Date(lastDutyDate).getTime() + CYCLE_LENGTH_MS;
-  const nextTriagePair = [triagers[nextTriagerIdx], triagers[(nextTriagerIdx +1 ) % triagers.length]];
+  const nextTriagePair = [triagerNames[nextTriagerIdx], triagerNames[(nextTriagerIdx +1 ) % triagerNames.length]];
   const nextDutyDate = createDateString(new Date(nextDutyDateMS));
-  const firstComponentSet = selectRandom(components, Math.floor(components.length / 2));
-  const secondComponentSet = components.filter(c => firstComponentSet.indexOf(c) === -1);
+  const firstComponentSet = selectRandom(componentNames, Math.floor(componentNames.length / 2));
+  const secondComponentSet = componentNames.filter(c => firstComponentSet.indexOf(c) === -1);
   const dutyCycle = {};
   dutyCycle[nextTriagePair[0]] = firstComponentSet;
   dutyCycle[nextTriagePair[1]] = secondComponentSet;
@@ -174,16 +183,16 @@ function generateDutyCycle({ dutyCycleHistory, triagersData, components }) {
 }
 
 function runUpdate() {
-  const { triagers: triagersData, components } = readConfig();
+  const { triagers, components } = readConfig();
   const { dutyCycleHistory } = JSON.parse(fs.readFileSync(HISTORY_FILE));
-  const { date, dutyCycle } = generateDutyCycle({ dutyCycleHistory, triagersData, components });
+  const { date, dutyCycle } = generateDutyCycle({ dutyCycleHistory, triagers, components });
 
   function updateJSONCalendars() {
     const newDutyCycleTriagers = Object.keys(dutyCycle);
-    newDutyCycleTriagers.forEach(triager => {
-      const components = dutyCycle[triager];
+    newDutyCycleTriagers.forEach(triagerName => {
+      const components = dutyCycle[triagerName];
       components.forEach(component => {
-        appendDutyCycle({ component, date, triagerName: triager, triagerData: triagersData[triager] });
+        appendDutyCycle({ component, date, triagerName, triagerData: triagers[triagerName] });
       });
     });
   }
@@ -192,7 +201,7 @@ function runUpdate() {
 
   updateJSONCalendars();
   writeToHistory({ dutyCycleHistory });
-  generateICALFile({ dutyCycleHistory });
+  generateICALFile({ dutyCycleHistory, components });
 }
 
 /**
@@ -206,7 +215,11 @@ function runReset() {
   resetData[DUTY_START_DATES_KEY] = {};
   const resetDataString = JSON.stringify(resetData, undefined, INDENT);
 
-  components.forEach(component => {
+  if (!fs.existsSync(DIST_DIR)){
+    fs.mkdirSync(DIST_DIR);
+  }
+
+  Object.keys(components).forEach(component => {
     const filePath = `${DIST_DIR}/${component}.json`;
     fs.writeFileSync(filePath, resetDataString);
   });
