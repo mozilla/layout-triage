@@ -1,10 +1,10 @@
 {
   "triagers": {
-    "Daniel Holbert": {
-      "bzmail": "dholbert@mozilla.com"
+    "Ting-Yu Lin": {
+      "bzmail": "aethanyc@gmail.com"
     }
   },
   "duty-start-dates": {
-    "2019-08-26": "Daniel Holbert"
+    "2019-08-26": "Ting-Yu Lin"
   }
 }
