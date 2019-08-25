@@ -3,6 +3,7 @@ const ical = require('ical-toolkit');
 const ghpages = require('gh-pages');
 
 const DIST_DIR = 'dist';
+const DOMAIN_NAME = 'triage.layout.team';
 const CONFIG_FILE = 'config.json';
 const HISTORY_FILE = 'history.json';
 const TRIAGERS_KEY = 'triagers';
@@ -21,7 +22,7 @@ function readConfig() {
 }
 
 /**
- * Write the given JSON object to the history file.
+ * Write the given JSON object to the history file. Writes synchronously.
  * @param {*} json 
  */
 function writeToHistory(json) {
@@ -32,6 +33,7 @@ function writeToHistory(json) {
 /**
  * Given a date, return the date of the Monday preceding it.
  * @param {Date} date 
+ * @returns
  */
 function getLastMonday(date) {
   const day = date.getDay() || 7;  
@@ -115,7 +117,23 @@ function getLastDutyCycle({ dutyCycleHistory }) {
   }
 }
 
-function generateICALFile({ dutyCycleHistory, components }) {
+function generateBugzillaUrl(componentNames) {
+  const prefix = 'https://bugzilla.mozilla.org/buglist.cgi?' +
+    'priority=--' + 
+    '&f1=short_desc' +
+    '&bug_type=defect' + 
+    '&o1=notsubstring' +
+    '&resolution=---' +
+    '&classification=Client%20Software&classification=Developer%20Infrastructure&classification=Components&classification=Server%20Software&classification=Other&query_format=advanced&chfield=%5BBug%20creation%5D&chfieldfrom=-60d&v1=%5Bmeta%5D&product=Core';
+  return prefix + '&' + componentNames.map(name => `component=${encodeURIComponent(name)}`).join('&')
+}
+
+/**
+ * 
+ * @param {*} params 
+ *   @param {*} params.dutyCycleHistory
+ */
+function generateIcsFile({ dutyCycleHistory, components }) {
   const builder = ical.createIcsFileBuilder();
 
   builder.calname = 'Layout Triage';
@@ -131,15 +149,21 @@ function generateICALFile({ dutyCycleHistory, components }) {
     const triagerNames = Object.keys(dutyCycle);
     const dutyCycleDateMs = new Date(dutyCycleDate).getTime();
 
-    const triager0Components = Array.prototype.concat.apply([], dutyCycle[triagerNames[0]].map(component => components[component])).join(', ');
-    const triager1Components = Array.prototype.concat.apply([], dutyCycle[triagerNames[1]].map(component => components[component])).join(', ');
+    const triager0Components = Array.prototype.concat.apply([], dutyCycle[triagerNames[0]].map(component => components[component]));
+    const triager1Components = Array.prototype.concat.apply([], dutyCycle[triagerNames[1]].map(component => components[component]));
 
     builder.events.push({
       start: new Date(dutyCycleDateMs),
       end: new Date(dutyCycleDateMs + CYCLE_LENGTH_MS),
       summary: `Triage Duty: ${triagerNames.join(', ')}`,
-      description: `${triagerNames[0]}: ${triager0Components}\n${triagerNames[1]}: ${triager1Components}`,
-      allDay: true
+      allDay: true,
+      transp: 'TRANSPARENT',
+      description: `<strong>${triagerNames[0]}:</strong> ` + 
+        `(<a href="${generateBugzillaUrl(triager0Components)}">Bugzilla Query</a>)` +
+        `<ul>${triager0Components.map(c => `<li>${c}</li>`).join('')}</ul><br>` +
+        `<strong>${triagerNames[1]}:</strong> ` +
+        `(<a href="${generateBugzillaUrl(triager1Components)}">Bugzilla Query</a>)` +
+        `<ul>${triager1Components.map(c => `<li>${c}</li>`).join('')}</ul>`
     });
   }
 
@@ -201,7 +225,7 @@ function runUpdate() {
 
   updateJSONCalendars();
   writeToHistory({ dutyCycleHistory });
-  generateICALFile({ dutyCycleHistory, components });
+  generateIcsFile({ dutyCycleHistory, components });
 }
 
 /**
@@ -225,10 +249,12 @@ function runReset() {
   });
 
   writeToHistory({ dutyCycleHistory: {} });
-  generateICALFile({ dutyCycleHistory: {} });
+  generateIcsFile({ dutyCycleHistory: {} });
 }
 
 function runPublish() {
+  fs.writeFileSync(`${DIST_DIR}/CNAME`, DOMAIN_NAME);
+
   ghpages.publish(DIST_DIR, function (err) {
     if (err) {
       console.error('There was an error during publishing.');
