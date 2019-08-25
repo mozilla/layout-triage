@@ -2,9 +2,13 @@
   "triagers": {
     "Ting-Yu Lin": {
       "bzmail": "aethanyc@gmail.com"
+    },
+    "Cameron McCormack": {
+      "bzmail": "cam@mcc.id.au"
     }
   },
   "duty-start-dates": {
-    "2019-08-26": "Ting-Yu Lin"
+    "2019-08-26": "Ting-Yu Lin",
+    "2019-09-02": "Cameron McCormack"
   }
 }
