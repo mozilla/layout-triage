@@ -1,4 +1,10 @@
 {
-  "triagers": {},
-  "duty-start-dates": {}
+  "triagers": {
+    "Daniel Holbert": {
+      "bzmail": "dholbert@mozilla.com"
+    }
+  },
+  "duty-start-dates": {
+    "2019-08-26": "Daniel Holbert"
+  }
 }

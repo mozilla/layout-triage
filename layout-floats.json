@@ -1,4 +1,10 @@
 {
-  "triagers": {},
-  "duty-start-dates": {}
+  "triagers": {
+    "Cameron McCormack": {
+      "bzmail": "cam@mcc.id.au"
+    }
+  },
+  "duty-start-dates": {
+    "2019-08-26": "Cameron McCormack"
+  }
 }
