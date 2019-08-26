@@ -5,10 +5,14 @@
     },
     "Cameron McCormack": {
       "bzmail": "cam@mcc.id.au"
+    },
+    "Jonathan Kew": {
+      "bzmail": "jfkthame@gmail.com"
     }
   },
   "duty-start-dates": {
     "2019-08-26": "Daniel Holbert",
-    "2019-09-02": "Cameron McCormack"
+    "2019-09-02": "Cameron McCormack",
+    "2019-09-09": "Jonathan Kew"
   }
 }

@@ -5,10 +5,14 @@
     },
     "Boris Chiou": {
       "bzmail": "boris.chiou@gmail.com"
+    },
+    "Jonathan Kew": {
+      "bzmail": "jfkthame@gmail.com"
     }
   },
   "duty-start-dates": {
     "2019-08-26": "Ting-Yu Lin",
-    "2019-09-02": "Boris Chiou"
+    "2019-09-02": "Boris Chiou",
+    "2019-09-09": "Jonathan Kew"
   }
 }
