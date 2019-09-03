@@ -8,11 +8,19 @@
     },
     "Mats Palmgren": {
       "bzmail": "mats@mozilla.com"
+    },
+    "Jonathan Watt": {
+      "bzmail": "jwatt@jwatt.org"
+    },
+    "Dan Glastonbury": {
+      "bzmail": "dglastonbury@mozilla.com"
     }
   },
   "duty-start-dates": {
     "2019-08-26": "Daniel Holbert",
     "2019-09-02": "Cameron McCormack",
-    "2019-09-09": "Mats Palmgren"
+    "2019-09-09": "Mats Palmgren",
+    "2019-09-16": "Jonathan Watt",
+    "2019-09-23": "Dan Glastonbury"
   }
 }
