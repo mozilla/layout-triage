@@ -9,18 +9,23 @@
     "Jonathan Kew": {
       "bzmail": "jfkthame@gmail.com"
     },
-    "Emilio Cobos Alvarez": {
-      "bzmail": "emilio@crisal.io"
+    "Sean Voisen": {
+      "bzmail": "svoisen@mozilla.com"
     },
     "Dan Glastonbury": {
       "bzmail": "dglastonbury@mozilla.com"
+    },
+    "Ting-Yu Lin": {
+      "bzmail": "aethanyc@gmail.com"
     }
   },
   "duty-start-dates": {
     "2019-08-26": "Daniel Holbert",
     "2019-09-02": "Boris Chiou",
     "2019-09-09": "Jonathan Kew",
-    "2019-09-16": "Emilio Cobos Alvarez",
-    "2019-09-23": "Dan Glastonbury"
+    "2019-09-16": "Sean Voisen",
+    "2019-09-23": "Dan Glastonbury",
+    "2019-09-30": "Sean Voisen",
+    "2019-10-07": "Ting-Yu Lin"
   }
 }
