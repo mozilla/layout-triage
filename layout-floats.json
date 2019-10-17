@@ -29,6 +29,9 @@
     },
     "Emilio Cobos Alvarez": {
       "bzmail": "emilio@crisal.io"
+    },
+    "David Baron": {
+      "bzmail": "dbaron@dbaron.org"
     }
   },
   "duty-start-dates": {
@@ -41,6 +44,11 @@
     "2019-10-07": "Daniel Holbert",
     "2019-10-14": "Cameron McCormack",
     "2019-10-21": "Mats Palmgren",
-    "2019-10-28": "Emilio Cobos Alvarez"
+    "2019-10-28": "Emilio Cobos Alvarez",
+    "2019-11-04": "Hiro Ikezoe",
+    "2019-11-11": "David Baron",
+    "2019-11-18": "Ting-Yu Lin",
+    "2019-11-25": "Cameron McCormack",
+    "2019-12-02": "Mats Palmgren"
   }
 }

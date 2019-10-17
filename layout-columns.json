@@ -23,6 +23,9 @@
     },
     "Emilio Cobos Alvarez": {
       "bzmail": "emilio@crisal.io"
+    },
+    "Daniel Holbert": {
+      "bzmail": "dholbert@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -35,6 +38,11 @@
     "2019-10-07": "Ting-Yu Lin",
     "2019-10-14": "Boris Chiou",
     "2019-10-21": "Jonathan Kew",
-    "2019-10-28": "Emilio Cobos Alvarez"
+    "2019-10-28": "Emilio Cobos Alvarez",
+    "2019-11-04": "Dan Glastonbury",
+    "2019-11-11": "David Baron",
+    "2019-11-18": "Daniel Holbert",
+    "2019-11-25": "Boris Chiou",
+    "2019-12-02": "Jonathan Kew"
   }
 }
