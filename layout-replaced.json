@@ -26,6 +26,12 @@
     },
     "Dan Glastonbury": {
       "bzmail": "dglastonbury@mozilla.com"
+    },
+    "Jonathan Watt": {
+      "bzmail": "jwatt@jwatt.org"
+    },
+    "David Baron": {
+      "bzmail": "dbaron@dbaron.org"
     }
   },
   "duty-start-dates": {
@@ -43,6 +49,10 @@
     "2019-11-11": "Sean Voisen",
     "2019-11-18": "Ting-Yu Lin",
     "2019-11-25": "Boris Chiou",
-    "2019-12-02": "Mats Palmgren"
+    "2019-12-02": "Mats Palmgren",
+    "2019-12-09": "Jonathan Watt",
+    "2019-12-16": "Hiro Ikezoe",
+    "2019-12-23": "David Baron",
+    "2019-12-30": "Daniel Holbert"
   }
 }

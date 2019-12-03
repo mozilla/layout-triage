@@ -29,6 +29,9 @@
     },
     "Boris Chiou": {
       "bzmail": "boris.chiou@gmail.com"
+    },
+    "Sean Voisen": {
+      "bzmail": "svoisen@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -46,6 +49,10 @@
     "2019-11-11": "David Baron",
     "2019-11-18": "Daniel Holbert",
     "2019-11-25": "Boris Chiou",
-    "2019-12-02": "Jonathan Kew"
+    "2019-12-02": "Jonathan Kew",
+    "2019-12-09": "Jonathan Watt",
+    "2019-12-16": "Hiro Ikezoe",
+    "2019-12-23": "Sean Voisen",
+    "2019-12-30": "Ting-Yu Lin"
   }
 }
