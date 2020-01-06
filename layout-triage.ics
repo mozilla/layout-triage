@@ -31,8 +31,8 @@ END:VTIMEZONE
 
 
 BEGIN:VEVENT
-UID:b157a4ae
-DTSTAMP:20191203T213910Z
+UID:b54d0dc8
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20190826
 DTEND;VALUE=DATE:20190902
@@ -43,8 +43,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:7f59eab3
-DTSTAMP:20191203T213910Z
+UID:85ee4f13
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20190902
 DTEND;VALUE=DATE:20190909
@@ -55,8 +55,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:410278d3
-DTSTAMP:20191203T213910Z
+UID:7502f0b4
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20190909
 DTEND;VALUE=DATE:20190916
@@ -67,8 +67,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:df127ea7
-DTSTAMP:20191203T213910Z
+UID:f9ab20db
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20190916
 DTEND;VALUE=DATE:20190923
@@ -79,8 +79,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:63f2be56
-DTSTAMP:20191203T213910Z
+UID:8dbb1574
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20190923
 DTEND;VALUE=DATE:20190930
@@ -91,8 +91,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:cb215a73
-DTSTAMP:20191203T213910Z
+UID:1a6977db
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20190930
 DTEND;VALUE=DATE:20191007
@@ -103,8 +103,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:2cc424ef
-DTSTAMP:20191203T213910Z
+UID:ea5a1046
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191007
 DTEND;VALUE=DATE:20191014
@@ -115,8 +115,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:3561a672
-DTSTAMP:20191203T213910Z
+UID:03bede87
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191014
 DTEND;VALUE=DATE:20191021
@@ -127,8 +127,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:eb76c73f
-DTSTAMP:20191203T213910Z
+UID:949abb90
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191021
 DTEND;VALUE=DATE:20191028
@@ -139,8 +139,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:c56da614
-DTSTAMP:20191203T213910Z
+UID:5f6f44cc
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191028
 DTEND;VALUE=DATE:20191104
@@ -151,8 +151,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:443a81af
-DTSTAMP:20191203T213910Z
+UID:c97408bc
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191104
 DTEND;VALUE=DATE:20191111
@@ -163,8 +163,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:832cfd5e
-DTSTAMP:20191203T213910Z
+UID:ee87603f
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191111
 DTEND;VALUE=DATE:20191118
@@ -175,8 +175,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:3536f1cb
-DTSTAMP:20191203T213910Z
+UID:131a534d
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191118
 DTEND;VALUE=DATE:20191125
@@ -187,8 +187,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:fa8d7fa0
-DTSTAMP:20191203T213910Z
+UID:97ce22ba
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191125
 DTEND;VALUE=DATE:20191202
@@ -199,8 +199,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:5bbcb0b8
-DTSTAMP:20191203T213910Z
+UID:3236bf27
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191202
 DTEND;VALUE=DATE:20191209
@@ -211,8 +211,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:442c2e88
-DTSTAMP:20191203T213910Z
+UID:1d1be88d
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191209
 DTEND;VALUE=DATE:20191216
@@ -223,8 +223,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:da86b2b4
-DTSTAMP:20191203T213910Z
+UID:6745ea5a
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191216
 DTEND;VALUE=DATE:20191223
@@ -235,8 +235,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:bd65a5d8
-DTSTAMP:20191203T213910Z
+UID:c92cb656
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191223
 DTEND;VALUE=DATE:20191230
@@ -247,14 +247,38 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:4e9baca7
-DTSTAMP:20191203T213910Z
+UID:82db99e3
+DTSTAMP:20200106T173136Z
 TRANSP:TRANSPARENT
 DTSTART;VALUE=DATE:20191230
 DTEND;VALUE=DATE:20200106
 SUMMARY:Triage Duty: Daniel Holbert\, Ting-Yu Lin
 SEQUENCE:0
 DESCRIPTION:<strong>Daniel Holbert:</strong> (<a href="https://bugzilla.mozilla.org/buglist.cgi?priority=--&f1=short_desc&bug_type=defect&o1=notsubstring&resolution=---&classification=Client%20Software&classification=Developer%20Infrastructure&classification=Components&classification=Server%20Software&classification=Other&query_format=advanced&chfield=%5BBug%20creation%5D&chfieldfrom=-60d&v1=%5Bmeta%5D&product=Core&component=Layout%3A%20Grid&component=Layout%3A%20Ruby&component=Layout%3A%20Text%20and%20Fonts&component=Layout%3A%20Block%20and%20Inline&component=Layout%3A%20Scrolling%20and%20Overflow&component=CSS%20Animations%20and%20Transitions&component=Layout&component=Layout%3A%20Images%2C%20Video%2C%20and%20HTML%20Frames&component=Layout%3A%20Flexbox">Bugzilla Query</a>)<ul><li>Layout: Grid</li><li>Layout: Ruby</li><li>Layout: Text and Fonts</li><li>Layout: Block and Inline</li><li>Layout: Scrolling and Overflow</li><li>CSS Animations and Transitions</li><li>Layout</li><li>Layout: Images\, Video\, and HTML Frames</li><li>Layout: Flexbox</li></ul><br><strong>Ting-Yu Lin:</strong> (<a href="https://bugzilla.mozilla.org/buglist.cgi?priority=--&f1=short_desc&bug_type=defect&o1=notsubstring&resolution=---&classification=Client%20Software&classification=Developer%20Infrastructure&classification=Components&classification=Server%20Software&classification=Other&query_format=advanced&chfield=%5BBug%20creation%5D&chfieldfrom=-60d&v1=%5Bmeta%5D&product=Core&component=Layout%3A%20Columns&component=Layout%3A%20Floats&component=Layout%3A%20Form%20Controls&component=Layout%3A%20Generated%20Content%2C%20Lists%2C%20and%20Counters&component=Layout%3A%20Positioned&component=Layout%3A%20Tables&component=Print%20Preview&component=Printing%3A%20Output&component=Printing%3A%20Setup&component=CSS%20Parsing%20and%20Computation&component=DOM%3A%20CSS%20Object%20Model&component=SVG">Bugzilla Query</a>)<ul><li>Layout: Columns</li><li>Layout: Floats</li><li>Layout: Form Controls</li><li>Layout: Generated Content\, Lists\, and Counters</li><li>Layout: Positioned</li><li>Layout: Tables</li><li>Print Preview</li><li>Printing: Output</li><li>Printing: Setup</li><li>CSS Parsing and Computation</li><li>DOM: CSS Object Model</li><li>SVG</li></ul>
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:0f4727a2
+DTSTAMP:20200106T173136Z
+TRANSP:TRANSPARENT
+DTSTART;VALUE=DATE:20200106
+DTEND;VALUE=DATE:20200113
+SUMMARY:Triage Duty: Cameron McCormack\, Boris Chiou
+SEQUENCE:0
+DESCRIPTION:<strong>Cameron McCormack:</strong> (<a href="https://bugzilla.mozilla.org/buglist.cgi?priority=--&f1=short_desc&bug_type=defect&o1=notsubstring&resolution=---&classification=Client%20Software&classification=Developer%20Infrastructure&classification=Components&classification=Server%20Software&classification=Other&query_format=advanced&chfield=%5BBug%20creation%5D&chfieldfrom=-60d&v1=%5Bmeta%5D&product=Core&component=SVG&component=Layout%3A%20Flexbox&component=Layout%3A%20Text%20and%20Fonts&component=Print%20Preview&component=Printing%3A%20Output&component=Printing%3A%20Setup&component=CSS%20Animations%20and%20Transitions&component=CSS%20Parsing%20and%20Computation&component=DOM%3A%20CSS%20Object%20Model&component=Layout%3A%20Grid&component=Layout&component=Layout%3A%20Scrolling%20and%20Overflow">Bugzilla Query</a>)<ul><li>SVG</li><li>Layout: Flexbox</li><li>Layout: Text and Fonts</li><li>Print Preview</li><li>Printing: Output</li><li>Printing: Setup</li><li>CSS Animations and Transitions</li><li>CSS Parsing and Computation</li><li>DOM: CSS Object Model</li><li>Layout: Grid</li><li>Layout</li><li>Layout: Scrolling and Overflow</li></ul><br><strong>Boris Chiou:</strong> (<a href="https://bugzilla.mozilla.org/buglist.cgi?priority=--&f1=short_desc&bug_type=defect&o1=notsubstring&resolution=---&classification=Client%20Software&classification=Developer%20Infrastructure&classification=Components&classification=Server%20Software&classification=Other&query_format=advanced&chfield=%5BBug%20creation%5D&chfieldfrom=-60d&v1=%5Bmeta%5D&product=Core&component=Layout%3A%20Block%20and%20Inline&component=Layout%3A%20Columns&component=Layout%3A%20Floats&component=Layout%3A%20Form%20Controls&component=Layout%3A%20Generated%20Content%2C%20Lists%2C%20and%20Counters&component=Layout%3A%20Positioned&component=Layout%3A%20Images%2C%20Video%2C%20and%20HTML%20Frames&component=Layout%3A%20Ruby&component=Layout%3A%20Tables">Bugzilla Query</a>)<ul><li>Layout: Block and Inline</li><li>Layout: Columns</li><li>Layout: Floats</li><li>Layout: Form Controls</li><li>Layout: Generated Content\, Lists\, and Counters</li><li>Layout: Positioned</li><li>Layout: Images\, Video\, and HTML Frames</li><li>Layout: Ruby</li><li>Layout: Tables</li></ul>
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:1c7daa31
+DTSTAMP:20200106T173136Z
+TRANSP:TRANSPARENT
+DTSTART;VALUE=DATE:20200113
+DTEND;VALUE=DATE:20200120
+SUMMARY:Triage Duty: Mats Palmgren\, Jonathan Kew
+SEQUENCE:0
+DESCRIPTION:<strong>Mats Palmgren:</strong> (<a href="https://bugzilla.mozilla.org/buglist.cgi?priority=--&f1=short_desc&bug_type=defect&o1=notsubstring&resolution=---&classification=Client%20Software&classification=Developer%20Infrastructure&classification=Components&classification=Server%20Software&classification=Other&query_format=advanced&chfield=%5BBug%20creation%5D&chfieldfrom=-60d&v1=%5Bmeta%5D&product=Core&component=Layout%3A%20Tables&component=Layout%3A%20Images%2C%20Video%2C%20and%20HTML%20Frames&component=Layout%3A%20Generated%20Content%2C%20Lists%2C%20and%20Counters&component=CSS%20Animations%20and%20Transitions&component=Print%20Preview&component=Printing%3A%20Output&component=Printing%3A%20Setup&component=CSS%20Parsing%20and%20Computation&component=DOM%3A%20CSS%20Object%20Model&component=Layout%3A%20Text%20and%20Fonts&component=Layout%3A%20Columns&component=SVG">Bugzilla Query</a>)<ul><li>Layout: Tables</li><li>Layout: Images\, Video\, and HTML Frames</li><li>Layout: Generated Content\, Lists\, and Counters</li><li>CSS Animations and Transitions</li><li>Print Preview</li><li>Printing: Output</li><li>Printing: Setup</li><li>CSS Parsing and Computation</li><li>DOM: CSS Object Model</li><li>Layout: Text and Fonts</li><li>Layout: Columns</li><li>SVG</li></ul><br><strong>Jonathan Kew:</strong> (<a href="https://bugzilla.mozilla.org/buglist.cgi?priority=--&f1=short_desc&bug_type=defect&o1=notsubstring&resolution=---&classification=Client%20Software&classification=Developer%20Infrastructure&classification=Components&classification=Server%20Software&classification=Other&query_format=advanced&chfield=%5BBug%20creation%5D&chfieldfrom=-60d&v1=%5Bmeta%5D&product=Core&component=Layout%3A%20Block%20and%20Inline&component=Layout%3A%20Flexbox&component=Layout%3A%20Floats&component=Layout%3A%20Form%20Controls&component=Layout&component=Layout%3A%20Grid&component=Layout%3A%20Scrolling%20and%20Overflow&component=Layout%3A%20Positioned&component=Layout%3A%20Ruby">Bugzilla Query</a>)<ul><li>Layout: Block and Inline</li><li>Layout: Flexbox</li><li>Layout: Floats</li><li>Layout: Form Controls</li><li>Layout</li><li>Layout: Grid</li><li>Layout: Scrolling and Overflow</li><li>Layout: Positioned</li><li>Layout: Ruby</li></ul>
 END:VEVENT
 
 REFRESH-INTERVAL:VALUE=DURATION:P1H
