@@ -32,6 +32,15 @@
     },
     "David Baron": {
       "bzmail": "dbaron@dbaron.org"
+    },
+    "Emilio Cobos Alvarez": {
+      "bzmail": "emilio@crisal.io"
+    },
+    "Emily McDonough": {
+      "bzmail": "emcdonough@mozilla.com"
+    },
+    "Erik Nordin": {
+      "bzmail": "enordin@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -55,6 +64,11 @@
     "2019-12-23": "David Baron",
     "2019-12-30": "Daniel Holbert",
     "2020-01-06": "Boris Chiou",
-    "2020-01-13": "Jonathan Kew"
+    "2020-01-13": "Jonathan Kew",
+    "2020-01-20": "Emilio Cobos Alvarez",
+    "2020-01-27": "Dan Glastonbury",
+    "2020-02-03": "Sean Voisen",
+    "2020-02-10": "Emily McDonough",
+    "2020-02-17": "Erik Nordin"
   }
 }
