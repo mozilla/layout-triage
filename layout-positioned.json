@@ -32,6 +32,9 @@
     },
     "Sean Voisen": {
       "bzmail": "svoisen@mozilla.com"
+    },
+    "Mats Palmgren": {
+      "bzmail": "mats@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -61,6 +64,10 @@
     "2020-02-03": "David Baron",
     "2020-02-10": "Daniel Holbert",
     "2020-02-17": "Ting-Yu Lin",
-    "2020-02-24": "Cameron McCormack"
+    "2020-02-24": "Cameron McCormack",
+    "2020-03-02": "Mats Palmgren",
+    "2020-03-09": "Emilio Cobos Alvarez",
+    "2020-03-16": "Dan Glastonbury",
+    "2020-03-23": "Sean Voisen"
   }
 }
