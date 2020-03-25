@@ -38,6 +38,9 @@
     },
     "Emily McDonough": {
       "bzmail": "emcdonough@mozilla.com"
+    },
+    "Erik Nordin": {
+      "bzmail": "enordin@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -71,6 +74,10 @@
     "2020-03-02": "Jonathan Kew",
     "2020-03-09": "Jonathan Watt",
     "2020-03-16": "Hiro Ikezoe",
-    "2020-03-23": "Sean Voisen"
+    "2020-03-23": "Sean Voisen",
+    "2020-03-30": "Emily McDonough",
+    "2020-04-06": "Erik Nordin",
+    "2020-04-13": "Cameron McCormack",
+    "2020-04-20": "Jonathan Kew"
   }
 }
