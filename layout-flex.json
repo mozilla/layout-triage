@@ -32,6 +32,9 @@
     },
     "David Baron": {
       "bzmail": "dbaron@dbaron.org"
+    },
+    "Emily McDonough": {
+      "bzmail": "emcdonough@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -69,6 +72,10 @@
     "2020-03-30": "Daniel Holbert",
     "2020-04-06": "Ting-Yu Lin",
     "2020-04-13": "Boris Chiou",
-    "2020-04-20": "Mats Palmgren"
+    "2020-04-20": "Mats Palmgren",
+    "2020-04-27": "Jonathan Watt",
+    "2020-05-04": "Hiro Ikezoe",
+    "2020-05-11": "Sean Voisen",
+    "2020-05-18": "Emily McDonough"
   }
 }

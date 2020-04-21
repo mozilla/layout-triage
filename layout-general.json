@@ -38,6 +38,9 @@
     },
     "Erik Nordin": {
       "bzmail": "enordin@mozilla.com"
+    },
+    "Sean Voisen": {
+      "bzmail": "svoisen@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -75,6 +78,10 @@
     "2020-03-30": "Daniel Holbert",
     "2020-04-06": "Erik Nordin",
     "2020-04-13": "Boris Chiou",
-    "2020-04-20": "Jonathan Kew"
+    "2020-04-20": "Jonathan Kew",
+    "2020-04-27": "Jonathan Watt",
+    "2020-05-04": "David Baron",
+    "2020-05-11": "Sean Voisen",
+    "2020-05-18": "Emily McDonough"
   }
 }
