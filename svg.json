@@ -1,84 +1,30 @@
 {
   "triagers": {
-    "Daniel Holbert": {
-      "bzmail": "dholbert@mozilla.com"
-    },
-    "Boris Chiou": {
-      "bzmail": "boris.chiou@gmail.com"
-    },
-    "Mats Palmgren": {
-      "bzmail": "mats@mozilla.com"
+    "Hiro Ikezoe": {
+      "bzmail": "hikezoe.birchill@mozilla.com"
     },
     "Sean Voisen": {
       "bzmail": "svoisen@mozilla.com"
     },
-    "Hiro Ikezoe": {
-      "bzmail": "hikezoe.birchill@mozilla.com"
-    },
-    "David Baron": {
-      "bzmail": "dbaron@dbaron.org"
+    "Emily McDonough": {
+      "bzmail": "emcdonough@mozilla.com"
     },
     "Cameron McCormack": {
       "bzmail": "cam@mcc.id.au"
     },
-    "Emilio Cobos Alvarez": {
-      "bzmail": "emilio@crisal.io"
+    "Boris Chiou": {
+      "bzmail": "boris.chiou@gmail.com"
     },
     "Jonathan Kew": {
       "bzmail": "jfkthame@gmail.com"
-    },
-    "Jonathan Watt": {
-      "bzmail": "jwatt@jwatt.org"
-    },
-    "Dan Glastonbury": {
-      "bzmail": "dglastonbury@mozilla.com"
-    },
-    "Ting-Yu Lin": {
-      "bzmail": "aethanyc@gmail.com"
-    },
-    "Erik Nordin": {
-      "bzmail": "enordin@mozilla.com"
     }
   },
   "duty-start-dates": {
-    "2019-08-26": "Daniel Holbert",
-    "2019-09-02": "Boris Chiou",
-    "2019-09-09": "Mats Palmgren",
-    "2019-09-16": "Sean Voisen",
-    "2019-09-23": "Hiro Ikezoe",
-    "2019-09-30": "David Baron",
-    "2019-10-07": "Daniel Holbert",
-    "2019-10-14": "Cameron McCormack",
-    "2019-10-21": "Mats Palmgren",
-    "2019-10-28": "Emilio Cobos Alvarez",
-    "2019-11-04": "Hiro Ikezoe",
-    "2019-11-11": "Sean Voisen",
-    "2019-11-18": "Daniel Holbert",
-    "2019-11-25": "Boris Chiou",
-    "2019-12-02": "Jonathan Kew",
-    "2019-12-09": "Jonathan Watt",
-    "2019-12-16": "Dan Glastonbury",
-    "2019-12-23": "Sean Voisen",
-    "2019-12-30": "Ting-Yu Lin",
-    "2020-01-06": "Cameron McCormack",
-    "2020-01-13": "Mats Palmgren",
-    "2020-01-20": "Emilio Cobos Alvarez",
-    "2020-01-27": "Dan Glastonbury",
-    "2020-02-03": "David Baron",
-    "2020-02-10": "Daniel Holbert",
-    "2020-02-17": "Ting-Yu Lin",
-    "2020-02-24": "Cameron McCormack",
-    "2020-03-02": "Mats Palmgren",
-    "2020-03-09": "Emilio Cobos Alvarez",
-    "2020-03-16": "Hiro Ikezoe",
-    "2020-03-23": "Sean Voisen",
-    "2020-03-30": "Daniel Holbert",
-    "2020-04-06": "Erik Nordin",
-    "2020-04-13": "Boris Chiou",
-    "2020-04-20": "Mats Palmgren",
-    "2020-04-27": "Jonathan Watt",
     "2020-05-04": "Hiro Ikezoe",
-    "2020-05-11": "Daniel Holbert",
-    "2020-05-18": "Ting-Yu Lin"
+    "2020-05-11": "Sean Voisen",
+    "2020-05-18": "Emily McDonough",
+    "2020-05-25": "Cameron McCormack",
+    "2020-06-01": "Boris Chiou",
+    "2020-06-08": "Jonathan Kew"
   }
 }
