@@ -46,9 +46,12 @@ function getLastMonday(date) {
 
 function appendDutyCycle({ component, date, triagerName, triagerData }) {
   const filePath = `${DIST_DIR}/${component}.json`;
+  if (!fs.existsSync(filePath)) {
+    fs.writeFileSync(filePath, '{"triagers":{}, "duty-start-dates":{}}');
+  }
+
   let data = fs.readFileSync(filePath);
   const calendar = JSON.parse(data);
-
   const triagers = calendar[TRIAGERS_KEY];
   const dutyStartDates = calendar[DUTY_START_DATES_KEY];
   if (!dutyStartDates || !triagers) {
@@ -119,12 +122,21 @@ function getLastDutyCycle({ dutyCycleHistory }) {
 
 function generateBugzillaUrl(componentNames) {
   const prefix = 'https://bugzilla.mozilla.org/buglist.cgi?' +
-    'priority=--' + 
+    'bug_severity=--' + 
     '&f1=short_desc' +
     '&bug_type=defect' + 
     '&o1=notsubstring' +
     '&resolution=---' +
-    '&classification=Client%20Software&classification=Developer%20Infrastructure&classification=Components&classification=Server%20Software&classification=Other&query_format=advanced&chfield=%5BBug%20creation%5D&chfieldfrom=-60d&v1=%5Bmeta%5D&product=Core';
+    '&classification=Client%20Software' +
+    '&classification=Developer%20Infrastructure' + 
+    '&classification=Components' +
+    '&classification=Server%20Software' +
+    '&classification=Other' +
+    '&query_format=advanced' +
+    '&chfield=%5BBug%20creation%5D' +
+    '&chfieldfrom=-60d' +
+    '&v1=%5Bmeta%5D' +
+    '&product=Core';
   return prefix + '&' + componentNames.map(name => `component=${encodeURIComponent(name)}`).join('&')
 }
 

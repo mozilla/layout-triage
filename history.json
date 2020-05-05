@@ -743,6 +743,270 @@
         "printing",
         "svg"
       ]
+    },
+    "2020-03-30": {
+      "Daniel Holbert": [
+        "layout-general",
+        "svg",
+        "layout-flex",
+        "animation",
+        "layout-ruby",
+        "layout-text",
+        "layout-tables",
+        "layout-block-inline",
+        "layout-form-controls"
+      ],
+      "Emily McDonough": [
+        "layout-columns",
+        "layout-floats",
+        "layout-generated",
+        "layout-grid",
+        "layout-overflow",
+        "layout-positioned",
+        "layout-replaced",
+        "printing",
+        "style-system"
+      ]
+    },
+    "2020-04-06": {
+      "Ting-Yu Lin": [
+        "layout-replaced",
+        "layout-grid",
+        "layout-columns",
+        "layout-overflow",
+        "layout-positioned",
+        "layout-tables",
+        "layout-flex",
+        "style-system",
+        "layout-floats"
+      ],
+      "Erik Nordin": [
+        "animation",
+        "layout-block-inline",
+        "layout-form-controls",
+        "layout-general",
+        "layout-generated",
+        "layout-ruby",
+        "layout-text",
+        "printing",
+        "svg"
+      ]
+    },
+    "2020-04-13": {
+      "Cameron McCormack": [
+        "animation",
+        "layout-overflow",
+        "printing",
+        "layout-tables",
+        "layout-ruby",
+        "layout-block-inline",
+        "layout-positioned",
+        "layout-grid",
+        "layout-generated"
+      ],
+      "Boris Chiou": [
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-general",
+        "layout-replaced",
+        "layout-text",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2020-04-20": {
+      "Mats Palmgren": [
+        "layout-replaced",
+        "layout-floats",
+        "layout-flex",
+        "style-system",
+        "layout-ruby",
+        "layout-grid",
+        "svg",
+        "layout-overflow",
+        "layout-columns"
+      ],
+      "Jonathan Kew": [
+        "animation",
+        "layout-block-inline",
+        "layout-form-controls",
+        "layout-general",
+        "layout-generated",
+        "layout-positioned",
+        "layout-tables",
+        "layout-text",
+        "printing"
+      ]
+    },
+    "2020-04-27": {
+      "Jonathan Watt": [
+        "layout-grid",
+        "layout-replaced",
+        "layout-positioned",
+        "layout-form-controls",
+        "printing",
+        "svg",
+        "layout-ruby",
+        "layout-general",
+        "layout-flex"
+      ],
+      "Emilio Cobos Alvarez": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-floats",
+        "layout-generated",
+        "layout-overflow",
+        "layout-tables",
+        "layout-text",
+        "style-system"
+      ]
+    },
+    "2020-05-04": {
+      "Hiro Ikezoe": [
+        "layout-grid",
+        "svg",
+        "layout-block-inline",
+        "printing",
+        "layout-generated",
+        "layout-tables",
+        "layout-columns",
+        "layout-flex",
+        "layout-positioned"
+      ],
+      "David Baron": [
+        "animation",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-general",
+        "layout-overflow",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-text",
+        "style-system"
+      ]
+    },
+    "2020-05-11": {
+      "Sean Voisen": [
+        "layout-flex",
+        "layout-ruby",
+        "layout-grid",
+        "layout-floats",
+        "svg",
+        "animation",
+        "printing",
+        "layout-tables",
+        "layout-overflow"
+      ],
+      "Daniel Holbert": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-form-controls",
+        "layout-general",
+        "layout-generated",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-text",
+        "style-system"
+      ]
+    },
+    "2020-05-18": {
+      "Emily McDonough": [
+        "layout-block-inline",
+        "printing",
+        "layout-grid",
+        "layout-general",
+        "layout-generated",
+        "layout-overflow",
+        "layout-columns",
+        "style-system",
+        "svg"
+      ],
+      "Ting-Yu Lin": [
+        "animation",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text"
+      ]
+    },
+    "2020-05-25": {
+      "Erik Nordin": [
+        "layout-ruby",
+        "layout-floats",
+        "layout-flex",
+        "layout-general",
+        "animation",
+        "layout-positioned",
+        "layout-columns",
+        "style-system",
+        "layout-replaced"
+      ],
+      "Cameron McCormack": [
+        "layout-block-inline",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-grid",
+        "layout-overflow",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "svg"
+      ]
+    },
+    "2020-06-01": {
+      "Boris Chiou": [
+        "layout-flex",
+        "layout-positioned",
+        "animation",
+        "layout-grid",
+        "layout-overflow",
+        "layout-replaced",
+        "layout-generated",
+        "svg",
+        "style-system"
+      ],
+      "Mats Palmgren": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-general",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "printing"
+      ]
+    },
+    "2020-06-08": {
+      "Jonathan Kew": [
+        "printing",
+        "svg",
+        "layout-floats",
+        "layout-flex",
+        "layout-general",
+        "layout-text",
+        "layout-tables",
+        "layout-replaced",
+        "layout-columns"
+      ],
+      "Jonathan Watt": [
+        "animation",
+        "layout-block-inline",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-grid",
+        "layout-overflow",
+        "layout-positioned",
+        "layout-ruby",
+        "style-system"
+      ]
     }
   }
 }
