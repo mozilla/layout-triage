@@ -17,6 +17,9 @@
     },
     "Jonathan Kew": {
       "bzmail": "jfkthame@gmail.com"
+    },
+    "Daniel Holbert": {
+      "bzmail": "dholbert@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -25,6 +28,10 @@
     "2020-05-18": "Ting-Yu Lin",
     "2020-05-25": "Cameron McCormack",
     "2020-06-01": "Mats Palmgren",
-    "2020-06-08": "Jonathan Kew"
+    "2020-06-08": "Jonathan Kew",
+    "2020-06-15": "Hiro Ikezoe",
+    "2020-06-22": "Sean Voisen",
+    "2020-06-29": "Daniel Holbert",
+    "2020-07-06": "Ting-Yu Lin"
   }
 }

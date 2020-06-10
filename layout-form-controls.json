@@ -17,6 +17,18 @@
     },
     "Jonathan Watt": {
       "bzmail": "jwatt@jwatt.org"
+    },
+    "Hiro Ikezoe": {
+      "bzmail": "hikezoe.birchill@mozilla.com"
+    },
+    "Sean Voisen": {
+      "bzmail": "svoisen@mozilla.com"
+    },
+    "Emily McDonough": {
+      "bzmail": "emcdonough@mozilla.com"
+    },
+    "Erik Nordin": {
+      "bzmail": "enordin@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -25,6 +37,10 @@
     "2020-05-18": "Ting-Yu Lin",
     "2020-05-25": "Cameron McCormack",
     "2020-06-01": "Mats Palmgren",
-    "2020-06-08": "Jonathan Watt"
+    "2020-06-08": "Jonathan Watt",
+    "2020-06-15": "Hiro Ikezoe",
+    "2020-06-22": "Sean Voisen",
+    "2020-06-29": "Emily McDonough",
+    "2020-07-06": "Erik Nordin"
   }
 }

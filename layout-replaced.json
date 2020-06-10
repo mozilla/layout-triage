@@ -17,6 +17,12 @@
     },
     "Jonathan Kew": {
       "bzmail": "jfkthame@gmail.com"
+    },
+    "Hiro Ikezoe": {
+      "bzmail": "hikezoe.birchill@mozilla.com"
+    },
+    "Sean Voisen": {
+      "bzmail": "svoisen@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -25,6 +31,10 @@
     "2020-05-18": "Ting-Yu Lin",
     "2020-05-25": "Erik Nordin",
     "2020-06-01": "Boris Chiou",
-    "2020-06-08": "Jonathan Kew"
+    "2020-06-08": "Jonathan Kew",
+    "2020-06-15": "Hiro Ikezoe",
+    "2020-06-22": "Sean Voisen",
+    "2020-06-29": "Daniel Holbert",
+    "2020-07-06": "Ting-Yu Lin"
   }
 }

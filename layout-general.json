@@ -17,6 +17,9 @@
     },
     "Jonathan Kew": {
       "bzmail": "jfkthame@gmail.com"
+    },
+    "Emilio Cobos Alvarez": {
+      "bzmail": "emilio@crisal.io"
     }
   },
   "duty-start-dates": {
@@ -25,6 +28,10 @@
     "2020-05-18": "Emily McDonough",
     "2020-05-25": "Erik Nordin",
     "2020-06-01": "Mats Palmgren",
-    "2020-06-08": "Jonathan Kew"
+    "2020-06-08": "Jonathan Kew",
+    "2020-06-15": "Emilio Cobos Alvarez",
+    "2020-06-22": "David Baron",
+    "2020-06-29": "Emily McDonough",
+    "2020-07-06": "Erik Nordin"
   }
 }
