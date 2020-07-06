@@ -26,6 +26,12 @@
     },
     "Ting-Yu Lin": {
       "bzmail": "aethanyc@gmail.com"
+    },
+    "Mats Palmgren": {
+      "bzmail": "mats@mozilla.com"
+    },
+    "David Baron": {
+      "bzmail": "dbaron@dbaron.org"
     }
   },
   "duty-start-dates": {
@@ -38,6 +44,10 @@
     "2020-06-15": "Emilio Cobos Alvarez",
     "2020-06-22": "Sean Voisen",
     "2020-06-29": "Daniel Holbert",
-    "2020-07-06": "Ting-Yu Lin"
+    "2020-07-06": "Ting-Yu Lin",
+    "2020-07-13": "Boris Chiou",
+    "2020-07-20": "Mats Palmgren",
+    "2020-07-27": "Jonathan Watt",
+    "2020-08-03": "David Baron"
   }
 }

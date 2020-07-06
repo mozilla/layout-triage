@@ -26,6 +26,12 @@
     },
     "Ting-Yu Lin": {
       "bzmail": "aethanyc@gmail.com"
+    },
+    "Mats Palmgren": {
+      "bzmail": "mats@mozilla.com"
+    },
+    "Jonathan Watt": {
+      "bzmail": "jwatt@jwatt.org"
     }
   },
   "duty-start-dates": {
@@ -38,6 +44,10 @@
     "2020-06-15": "Hiro Ikezoe",
     "2020-06-22": "David Baron",
     "2020-06-29": "Daniel Holbert",
-    "2020-07-06": "Ting-Yu Lin"
+    "2020-07-06": "Ting-Yu Lin",
+    "2020-07-13": "Cameron McCormack",
+    "2020-07-20": "Mats Palmgren",
+    "2020-07-27": "Jonathan Watt",
+    "2020-08-03": "David Baron"
   }
 }

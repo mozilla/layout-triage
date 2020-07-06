@@ -23,6 +23,15 @@
     },
     "Daniel Holbert": {
       "bzmail": "dholbert@mozilla.com"
+    },
+    "Cameron McCormack": {
+      "bzmail": "cam@mcc.id.au"
+    },
+    "Jonathan Watt": {
+      "bzmail": "jwatt@jwatt.org"
+    },
+    "Hiro Ikezoe": {
+      "bzmail": "hikezoe.birchill@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -35,6 +44,10 @@
     "2020-06-15": "Emilio Cobos Alvarez",
     "2020-06-22": "Sean Voisen",
     "2020-06-29": "Daniel Holbert",
-    "2020-07-06": "Erik Nordin"
+    "2020-07-06": "Erik Nordin",
+    "2020-07-13": "Cameron McCormack",
+    "2020-07-20": "Jonathan Kew",
+    "2020-07-27": "Jonathan Watt",
+    "2020-08-03": "Hiro Ikezoe"
   }
 }
