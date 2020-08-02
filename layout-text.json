@@ -29,6 +29,9 @@
     },
     "Hiro Ikezoe": {
       "bzmail": "hikezoe.birchill@mozilla.com"
+    },
+    "Jonathan Watt": {
+      "bzmail": "jwatt@jwatt.org"
     }
   },
   "duty-start-dates": {
@@ -45,6 +48,11 @@
     "2020-07-13": "Boris Chiou",
     "2020-07-20": "Mats Palmgren",
     "2020-07-27": "Emilio Cobos Alvarez",
-    "2020-08-03": "Hiro Ikezoe"
+    "2020-08-03": "Hiro Ikezoe",
+    "2020-08-10": "Daniel Holbert",
+    "2020-08-17": "Ting-Yu Lin",
+    "2020-08-24": "Cameron McCormack",
+    "2020-08-31": "Boris Chiou",
+    "2020-09-07": "Jonathan Watt"
   }
 }

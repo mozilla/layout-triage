@@ -32,6 +32,12 @@
     },
     "David Baron": {
       "bzmail": "dbaron@dbaron.org"
+    },
+    "Erik Nordin": {
+      "bzmail": "enordin@mozilla.com"
+    },
+    "Jonathan Kew": {
+      "bzmail": "jfkthame@gmail.com"
     }
   },
   "duty-start-dates": {
@@ -48,6 +54,11 @@
     "2020-07-13": "Boris Chiou",
     "2020-07-20": "Mats Palmgren",
     "2020-07-27": "Jonathan Watt",
-    "2020-08-03": "David Baron"
+    "2020-08-03": "David Baron",
+    "2020-08-10": "Daniel Holbert",
+    "2020-08-17": "Emily McDonough",
+    "2020-08-24": "Erik Nordin",
+    "2020-08-31": "Mats Palmgren",
+    "2020-09-07": "Jonathan Kew"
   }
 }
