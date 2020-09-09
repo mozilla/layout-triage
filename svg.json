@@ -35,6 +35,9 @@
     },
     "Erik Nordin": {
       "bzmail": "enordin@mozilla.com"
+    },
+    "Emilio Cobos Alvarez": {
+      "bzmail": "emilio@crisal.io"
     }
   },
   "duty-start-dates": {
@@ -56,6 +59,10 @@
     "2020-08-17": "Emily McDonough",
     "2020-08-24": "Erik Nordin",
     "2020-08-31": "Boris Chiou",
-    "2020-09-07": "Jonathan Watt"
+    "2020-09-07": "Jonathan Watt",
+    "2020-09-14": "Emilio Cobos Alvarez",
+    "2020-09-21": "Sean Voisen",
+    "2020-09-28": "Ting-Yu Lin",
+    "2020-10-05": "Cameron McCormack"
   }
 }

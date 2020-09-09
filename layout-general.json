@@ -32,6 +32,9 @@
     },
     "Boris Chiou": {
       "bzmail": "boris.chiou@gmail.com"
+    },
+    "Hiro Ikezoe": {
+      "bzmail": "hikezoe.birchill@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -53,6 +56,10 @@
     "2020-08-17": "Emily McDonough",
     "2020-08-24": "Erik Nordin",
     "2020-08-31": "Boris Chiou",
-    "2020-09-07": "Jonathan Watt"
+    "2020-09-07": "Jonathan Watt",
+    "2020-09-14": "Hiro Ikezoe",
+    "2020-09-21": "Sean Voisen",
+    "2020-09-28": "Emily McDonough",
+    "2020-10-05": "Erik Nordin"
   }
 }

@@ -32,6 +32,9 @@
     },
     "Emilio Cobos Alvarez": {
       "bzmail": "emilio@crisal.io"
+    },
+    "Emily McDonough": {
+      "bzmail": "emcdonough@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -53,6 +56,10 @@
     "2020-08-17": "Ting-Yu Lin",
     "2020-08-24": "Cameron McCormack",
     "2020-08-31": "Mats Palmgren",
-    "2020-09-07": "Jonathan Kew"
+    "2020-09-07": "Jonathan Kew",
+    "2020-09-14": "Emilio Cobos Alvarez",
+    "2020-09-21": "Daniel Holbert",
+    "2020-09-28": "Emily McDonough",
+    "2020-10-05": "Erik Nordin"
   }
 }

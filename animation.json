@@ -35,6 +35,9 @@
     },
     "Mats Palmgren": {
       "bzmail": "mats@mozilla.com"
+    },
+    "Daniel Holbert": {
+      "bzmail": "dholbert@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -56,6 +59,10 @@
     "2020-08-17": "Ting-Yu Lin",
     "2020-08-24": "Cameron McCormack",
     "2020-08-31": "Mats Palmgren",
-    "2020-09-07": "Jonathan Watt"
+    "2020-09-07": "Jonathan Watt",
+    "2020-09-14": "Hiro Ikezoe",
+    "2020-09-21": "Daniel Holbert",
+    "2020-09-28": "Emily McDonough",
+    "2020-10-05": "Cameron McCormack"
   }
 }
