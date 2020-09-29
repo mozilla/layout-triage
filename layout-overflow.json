@@ -32,6 +32,12 @@
     },
     "Hiro Ikezoe": {
       "bzmail": "hikezoe.birchill@mozilla.com"
+    },
+    "Mats Palmgren": {
+      "bzmail": "mats@mozilla.com"
+    },
+    "Ting-Yu Lin": {
+      "bzmail": "aethanyc@gmail.com"
     }
   },
   "duty-start-dates": {
@@ -57,6 +63,12 @@
     "2020-09-14": "Hiro Ikezoe",
     "2020-09-21": "Daniel Holbert",
     "2020-09-28": "Emily McDonough",
-    "2020-10-05": "Erik Nordin"
+    "2020-10-05": "Erik Nordin",
+    "2020-10-12": "Mats Palmgren",
+    "2020-10-19": "Jonathan Watt",
+    "2020-10-26": "Emilio Cobos Alvarez",
+    "2020-11-02": "Daniel Holbert",
+    "2020-11-09": "Ting-Yu Lin",
+    "2020-11-16": "Cameron McCormack"
   }
 }

@@ -35,6 +35,9 @@
     },
     "Hiro Ikezoe": {
       "bzmail": "hikezoe.birchill@mozilla.com"
+    },
+    "Ting-Yu Lin": {
+      "bzmail": "aethanyc@gmail.com"
     }
   },
   "duty-start-dates": {
@@ -60,6 +63,12 @@
     "2020-09-14": "Hiro Ikezoe",
     "2020-09-21": "Sean Voisen",
     "2020-09-28": "Emily McDonough",
-    "2020-10-05": "Erik Nordin"
+    "2020-10-05": "Erik Nordin",
+    "2020-10-12": "Mats Palmgren",
+    "2020-10-19": "Jonathan Watt",
+    "2020-10-26": "Hiro Ikezoe",
+    "2020-11-02": "Sean Voisen",
+    "2020-11-09": "Ting-Yu Lin",
+    "2020-11-16": "Erik Nordin"
   }
 }
