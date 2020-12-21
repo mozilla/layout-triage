@@ -34,24 +34,24 @@
       "bzmail": ""
     }
   },
-  "components": [
-    "animation",
-    "layout-block-inline",
-    "layout-columns",
-    "layout-flex",
-    "layout-floats",
-    "layout-form-controls",
-    "layout-general",
-    "layout-generated",
-    "layout-grid",
-    "layout-overflow",
-    "layout-positioned",
-    "layout-replaced",
-    "layout-ruby",
-    "layout-tables",
-    "layout-text",
-    "printing",
-    "style-system",
-    "svg"
-  ]
+  "components": {
+    "animation": ["CSS Transitions and Animations"],
+    "layout-block-inline": ["Layout: Block and Inline"],
+    "layout-columns": ["Layout: Columns"],
+    "layout-flex": ["Layout: Flexbox"],
+    "layout-floats": ["Layout: Floats"],
+    "layout-form-controls": ["Layout: Form Controls"],
+    "layout-general": ["Layout"],
+    "layout-generated": ["Layout: Generated Content, Lists, and Counters"],
+    "layout-grid": ["Layout: Grid"],
+    "layout-overflow": ["Layout: Scrolling and Overflow"],
+    "layout-positioned": ["Layout: Positioned"],
+    "layout-replaced": ["Layout: Images, Video, and HTML Frames"],
+    "layout-ruby": ["Layout: Ruby"],
+    "layout-tables": ["Layout: Tables"],
+    "layout-text": ["Layout: Text and Fonts"],
+    "printing": ["Print Preview", "Printing: Output", "Printing: Setup"],
+    "style-system": ["CSS Parsing and Computation", "DOM: CSS Object Model"],
+    "svg": ["SVG"]
+  }
 }
