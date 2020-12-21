@@ -64,10 +64,6 @@ function appendDutyCycle({ component, date, triagerName, triagerData }) {
 
   dutyStartDates[date] = triagerName;
 
-  if (!fs.existsSync(DIST_DIR)){
-    fs.mkdirSync(DIST_DIR);
-  }
-
   data = JSON.stringify(calendar, undefined, '  ');
   fs.writeFileSync(filePath, data);
 }
@@ -251,10 +247,6 @@ function runReset() {
   resetData[DUTY_START_DATES_KEY] = {};
   const resetDataString = JSON.stringify(resetData, undefined, INDENT);
 
-  if (!fs.existsSync(DIST_DIR)){
-    fs.mkdirSync(DIST_DIR);
-  }
-
   Object.keys(components).forEach(component => {
     const filePath = `${DIST_DIR}/${component}.json`;
     fs.writeFileSync(filePath, resetDataString);
@@ -278,6 +270,10 @@ function runPublish() {
 
 let args = process.argv.slice(2);
 let command = args.shift();
+
+if (!fs.existsSync(DIST_DIR)){
+  fs.mkdirSync(DIST_DIR);
+}
 
 switch (command) {
   case 'update': {
