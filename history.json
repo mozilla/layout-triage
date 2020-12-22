@@ -1799,6 +1799,30 @@
         "style-system",
         "svg"
       ]
+    },
+    "2021-02-01": {
+      "Emily McDonough": [
+        "layout-generated",
+        "style-system",
+        "printing",
+        "layout-form-controls",
+        "animation",
+        "layout-overflow",
+        "layout-grid",
+        "layout-general",
+        "layout-replaced"
+      ],
+      "Cameron McCormack": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "svg"
+      ]
     }
   }
 }
