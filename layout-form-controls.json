@@ -35,6 +35,9 @@
     },
     "Emilio Cobos Alvarez": {
       "bzmail": "emilio@crisal.io"
+    },
+    "Boris Chiou": {
+      "bzmail": "boris.chiou@gmail.com"
     }
   },
   "duty-start-dates": {
@@ -70,6 +73,12 @@
     "2020-11-23": "Mats Palmgren",
     "2020-11-30": "Jonathan Watt",
     "2020-12-07": "Emilio Cobos Alvarez",
-    "2020-12-14": "Daniel Holbert"
+    "2020-12-14": "Daniel Holbert",
+    "2020-12-28": "Erik Nordin",
+    "2020-12-21": "Emily McDonough",
+    "2021-01-04": "Boris Chiou",
+    "2021-01-11": "Mats Palmgren",
+    "2021-01-18": "Emilio Cobos Alvarez",
+    "2021-01-25": "Hiro Ikezoe"
   }
 }
