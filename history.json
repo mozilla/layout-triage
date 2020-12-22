@@ -1823,6 +1823,30 @@
         "layout-text",
         "svg"
       ]
+    },
+    "2021-02-08": {
+      "Erik Nordin": [
+        "layout-text",
+        "style-system",
+        "layout-tables",
+        "animation",
+        "layout-general",
+        "layout-columns",
+        "layout-block-inline",
+        "layout-flex",
+        "layout-ruby"
+      ],
+      "Boris Chiou": [
+        "layout-floats",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-grid",
+        "layout-overflow",
+        "layout-positioned",
+        "layout-replaced",
+        "printing",
+        "svg"
+      ]
     }
   }
 }
