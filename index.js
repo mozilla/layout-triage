@@ -3,7 +3,6 @@ const ical = require('ical-toolkit');
 const ghpages = require('gh-pages');
 
 const DIST_DIR = 'dist';
-const DOMAIN_NAME = 'triage.layout.team';
 const CONFIG_FILE = 'config.json';
 const HISTORY_FILE = 'history.json';
 const TRIAGERS_KEY = 'triagers';
@@ -257,8 +256,6 @@ function runReset() {
 }
 
 function runPublish() {
-  fs.writeFileSync(`${DIST_DIR}/CNAME`, DOMAIN_NAME);
-
   ghpages.publish(DIST_DIR, function (err) {
     if (err) {
       console.error('There was an error during publishing.');
