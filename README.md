@@ -7,6 +7,7 @@ The script in this repository updates and generates triage duty cycle rotations 
 1. Clone the repository.
 2. Run `npm install`.
 3. Copy `config.template.json` to `config.json` and edit as needed.
+4. If desired, run `npm run init` to fetch the current state of the triage history from GitHub.
 
 ## Adding a Triage Cycle
 

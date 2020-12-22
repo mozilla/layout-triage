@@ -1,7 +1,9 @@
 const fs = require('fs');
 const ical = require('ical-toolkit');
 const ghpages = require('gh-pages');
+const fetch = require('node-fetch');
 
+const PUBLISHED_URL = 'https://mozilla.github.io/layout-triage';
 const DIST_DIR = 'dist';
 const CONFIG_FILE = 'config.json';
 const HISTORY_FILE = 'history.json';
@@ -265,10 +267,37 @@ function runPublish() {
   });
 }
 
+async function runInit() {
+  const { components } = readConfig();
+
+  if (fs.existsSync(DIST_DIR)) {
+    console.error('Cannot initialize while dist/ directory exists.');
+    return;
+  }
+  fs.mkdirSync(DIST_DIR);
+
+  const filenames = [
+    'history.json',
+    ...Object.keys(components).map(component => `${component}.json`)
+  ];
+
+  for (let filename of filenames) {
+    const url = `${PUBLISHED_URL}/${filename}`;
+    const res = await fetch(url);
+
+    if (!res.ok) {
+      console.error(`Error fetching ${url}`);
+      continue;
+    }
+
+    fs.writeFileSync(`${DIST_DIR}/${filename}`, await res.text());
+  }
+}
+
 let args = process.argv.slice(2);
 let command = args.shift();
 
-if (!fs.existsSync(DIST_DIR)){
+if (command != 'init' && !fs.existsSync(DIST_DIR)) {
   fs.mkdirSync(DIST_DIR);
 }
 
@@ -285,6 +314,11 @@ switch (command) {
 
   case 'publish': {
     runPublish();
+    break;
+  }
+
+  case 'init': {
+    runInit();
     break;
   }
 }
