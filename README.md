@@ -18,6 +18,6 @@ Run `npm run publish`. This will publish everything in the `dist` directory to t
 
 ## Resetting All Data
 
-**Note:** This will erase all triage history in `history.json` and start triage rotation over using the first team member listed on `config.json`.
+**Note:** This will erase all triage history in `dist/history.json` and start triage rotation over using the first team member listed on `config.json`.
 
 Run `npm run reset`.

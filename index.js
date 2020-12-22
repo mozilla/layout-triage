@@ -27,7 +27,7 @@ function readConfig() {
  */
 function writeToHistory(json) {
   const data = JSON.stringify(json, undefined, INDENT);
-  fs.writeFileSync(HISTORY_FILE, data);
+  fs.writeFileSync(`${DIST_DIR}/${HISTORY_FILE}`, data);
 }
 
 /**
@@ -216,7 +216,7 @@ function generateDutyCycle({ dutyCycleHistory, triagers, components }) {
 
 function runUpdate() {
   const { triagers, components } = readConfig();
-  const { dutyCycleHistory } = JSON.parse(fs.readFileSync(HISTORY_FILE));
+  const { dutyCycleHistory } = JSON.parse(fs.readFileSync(`${DIST_DIR}/${HISTORY_FILE}`));
   const { date, dutyCycle } = generateDutyCycle({ dutyCycleHistory, triagers, components });
 
   function updateJSONCalendars() {
