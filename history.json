@@ -1871,6 +1871,30 @@
         "layout-overflow",
         "style-system"
       ]
+    },
+    "2021-02-22": {
+      "Jonathan Kew": [
+        "layout-text",
+        "animation",
+        "layout-tables",
+        "printing",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-generated",
+        "layout-replaced",
+        "layout-general"
+      ],
+      "Jonathan Watt": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-overflow",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
