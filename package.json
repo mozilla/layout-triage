@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "update": "node index.js update",
+    "clear": "node index.js clear",
     "reset": "node index.js reset",
     "publish": "node index.js publish",
     "init": "node index.js init"

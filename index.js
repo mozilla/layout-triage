@@ -38,11 +38,29 @@ function writeToHistory(json) {
  */
 function getLastMonday(date) {
   const day = date.getDay() || 7;  
+
+  let newDate = new Date(date);
   if (day !== 1) {
-    date.setHours(-24 * (day - 1)); 
+    newDate.setHours(-24 * (day - 1));
   }
 
-  return date;
+  return newDate;
+}
+
+/**
+ * Given a date, return the date of the Monday following it.
+ */
+function getNextMonday(date) {
+  let newDate = getLastMonday(date);
+  newDate.setHours(24 * 7);
+  return newDate;
+}
+
+/**
+ * Formats a date as YYYY-MM-DD.
+ */
+function createDateString(date) {
+  return date.toISOString().replace(/T.*$/, '');
 }
 
 function appendDutyCycle({ component, date, triagerName, triagerData }) {
@@ -65,7 +83,7 @@ function appendDutyCycle({ component, date, triagerName, triagerData }) {
 
   dutyStartDates[date] = triagerName;
 
-  data = JSON.stringify(calendar, undefined, '  ');
+  data = JSON.stringify(calendar, undefined, INDENT);
   fs.writeFileSync(filePath, data);
 }
 
@@ -185,9 +203,6 @@ function generateDutyCycle({ dutyCycleHistory, triagers, components }) {
   let lastTriagerIdx = -1;
   const triagerNames = Object.keys(triagers);
   const componentNames = Object.keys(components);
-  const createDateString = date => {
-    return date.toISOString().replace(/T.*$/, '');
-  }
 
   if (!lastDutyDate || !Array.isArray(lastTriagePair) || lastTriagePair.length !== 2) {
     console.warn('No existing duty cycle history. Generating first cycle.');
@@ -294,6 +309,33 @@ async function runInit() {
   }
 }
 
+function runClear() {
+  const { triagers, components } = readConfig();
+  const { dutyCycleHistory } = JSON.parse(fs.readFileSync(`${DIST_DIR}/${HISTORY_FILE}`));
+  const thisWeek = createDateString(getNextMonday(new Date()));
+
+  Object.keys(dutyCycleHistory)
+    .filter(d => d > thisWeek)
+    .forEach(d => delete dutyCycleHistory[d]);
+
+  for (let component in components) {
+    const filePath = `${DIST_DIR}/${component}.json`;
+    if (!fs.existsSync(filePath)) {
+      continue;
+    }
+
+    let calendar = JSON.parse(fs.readFileSync(filePath));
+    Object.keys(calendar[DUTY_START_DATES_KEY])
+      .filter(d => d > thisWeek)
+      .forEach(d => delete calendar[DUTY_START_DATES_KEY][d]);
+
+    fs.writeFileSync(filePath, JSON.stringify(calendar, undefined, INDENT));
+  }
+
+  writeToHistory({ dutyCycleHistory });
+  generateIcsFile({ dutyCycleHistory, components });
+}
+
 let args = process.argv.slice(2);
 let command = args.shift();
 
@@ -304,6 +346,11 @@ if (command != 'init' && !fs.existsSync(DIST_DIR)) {
 switch (command) {
   case 'update': {
     runUpdate();
+    break;
+  }
+
+  case 'clear': {
+    runClear();
     break;
   }
 

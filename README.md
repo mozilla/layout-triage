@@ -17,6 +17,10 @@ Run `npm run update`. Output (JSON and ICAL files) will be placed in the `dist` 
 
 Run `npm run publish`. This will publish everything in the `dist` directory to the `gh-pages` branch and push it to GitHub.
 
+## Clearing Future Data
+
+Run `npm run clear`. This will remove triage duty cycles from next week onwards. Useful if the set of triagers changes.
+
 ## Resetting All Data
 
 **Note:** This will erase all triage history in `dist/history.json` and start triage rotation over using the first team member listed on `config.json`.
