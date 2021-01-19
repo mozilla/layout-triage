@@ -1,6 +1,6 @@
 # Firefox Platform Layout Triage
 
-The script in this repository updates and generates triage duty cycle rotations for the Firefox Platform Layout team. Data is published as JSON for consumption by [release management auto-nag bots](https://github.com/mozilla/relman-auto-nag/blob/master/auto_nag/scripts/configs/layout_round_robin.json), as well as [https://mozilla.github.io/layout-triage/layout-triage.ics](ICAL) for consumption by team members.
+The script in this repository updates and generates triage duty cycle rotations for the Firefox Platform Layout team. Data is published as JSON for consumption by [release management auto-nag bots](https://github.com/mozilla/relman-auto-nag/blob/master/auto_nag/scripts/configs/layout_round_robin.json), as well as [ICAL](https://mozilla.github.io/layout-triage/layout-triage.ics) for consumption by team members.
 
 ## Installation
 
