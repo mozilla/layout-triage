@@ -1802,146 +1802,146 @@
     },
     "2021-02-01": {
       "Emily McDonough": [
-        "layout-generated",
-        "style-system",
-        "printing",
-        "layout-form-controls",
-        "animation",
-        "layout-overflow",
-        "layout-grid",
-        "layout-general",
-        "layout-replaced"
-      ],
-      "Cameron McCormack": [
-        "layout-block-inline",
         "layout-columns",
+        "svg",
+        "printing",
+        "layout-replaced",
+        "layout-form-controls",
+        "layout-tables",
+        "layout-grid",
+        "layout-positioned",
+        "layout-overflow"
+      ],
+      "Boris Chiou": [
+        "animation",
+        "layout-block-inline",
         "layout-flex",
         "layout-floats",
-        "layout-positioned",
+        "layout-general",
+        "layout-generated",
         "layout-ruby",
-        "layout-tables",
         "layout-text",
-        "svg"
+        "style-system"
       ]
     },
     "2021-02-08": {
-      "Erik Nordin": [
+      "Ting-Yu Lin": [
+        "layout-floats",
+        "layout-positioned",
+        "layout-tables",
+        "layout-grid",
+        "layout-general",
+        "layout-form-controls",
+        "printing",
+        "layout-block-inline",
+        "layout-replaced"
+      ],
+      "Mats Palmgren": [
+        "animation",
+        "layout-columns",
+        "layout-flex",
+        "layout-generated",
+        "layout-overflow",
+        "layout-ruby",
         "layout-text",
         "style-system",
-        "layout-tables",
-        "animation",
-        "layout-general",
-        "layout-columns",
-        "layout-block-inline",
-        "layout-flex",
-        "layout-ruby"
-      ],
-      "Boris Chiou": [
-        "layout-floats",
-        "layout-form-controls",
-        "layout-generated",
-        "layout-grid",
-        "layout-overflow",
-        "layout-positioned",
-        "layout-replaced",
-        "printing",
         "svg"
       ]
     },
     "2021-02-15": {
-      "Ting-Yu Lin": [
-        "layout-positioned",
-        "printing",
-        "svg",
+      "Jonathan Kew": [
+        "layout-general",
+        "layout-block-inline",
+        "style-system",
+        "layout-overflow",
         "layout-replaced",
         "layout-text",
-        "layout-ruby",
-        "layout-tables",
-        "layout-flex",
-        "layout-general"
-      ],
-      "Mats Palmgren": [
-        "animation",
-        "layout-block-inline",
-        "layout-columns",
-        "layout-floats",
         "layout-form-controls",
+        "layout-positioned",
+        "layout-floats"
+      ],
+      "Jonathan Watt": [
+        "animation",
+        "layout-columns",
+        "layout-flex",
         "layout-generated",
         "layout-grid",
-        "layout-overflow",
-        "style-system"
+        "layout-ruby",
+        "layout-tables",
+        "printing",
+        "svg"
       ]
     },
     "2021-02-22": {
-      "Jonathan Kew": [
-        "layout-text",
-        "animation",
+      "Emilio Cobos Alvarez": [
+        "svg",
+        "style-system",
         "layout-tables",
-        "printing",
         "layout-positioned",
-        "layout-ruby",
-        "layout-generated",
-        "layout-replaced",
-        "layout-general"
-      ],
-      "Jonathan Watt": [
-        "layout-block-inline",
-        "layout-columns",
-        "layout-flex",
         "layout-floats",
+        "animation",
+        "layout-ruby",
+        "layout-text",
+        "layout-columns"
+      ],
+      "Hiro Ikezoe": [
+        "layout-block-inline",
+        "layout-flex",
         "layout-form-controls",
+        "layout-general",
+        "layout-generated",
         "layout-grid",
         "layout-overflow",
-        "style-system",
-        "svg"
+        "layout-replaced",
+        "printing"
       ]
     },
     "2021-03-01": {
-      "Emilio Cobos Alvarez": [
-        "layout-text",
-        "layout-floats",
-        "layout-columns",
-        "layout-ruby",
-        "style-system",
-        "printing",
-        "layout-positioned",
-        "layout-tables",
-        "layout-replaced"
-      ],
-      "Hiro Ikezoe": [
-        "animation",
-        "layout-block-inline",
-        "layout-flex",
-        "layout-form-controls",
-        "layout-general",
-        "layout-generated",
-        "layout-grid",
-        "layout-overflow",
-        "svg"
-      ]
-    },
-    "2021-03-08": {
       "Daniel Holbert": [
-        "svg",
-        "layout-general",
-        "printing",
-        "layout-form-controls",
+        "layout-block-inline",
         "layout-ruby",
-        "layout-generated",
         "animation",
+        "layout-form-controls",
+        "layout-columns",
+        "style-system",
+        "svg",
         "layout-grid",
-        "layout-flex"
+        "layout-tables"
       ],
       "Emily McDonough": [
-        "layout-block-inline",
-        "layout-columns",
+        "layout-flex",
         "layout-floats",
+        "layout-general",
+        "layout-generated",
         "layout-overflow",
         "layout-positioned",
         "layout-replaced",
-        "layout-tables",
         "layout-text",
-        "style-system"
+        "printing"
+      ]
+    },
+    "2021-03-08": {
+      "Boris Chiou": [
+        "layout-general",
+        "layout-tables",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "animation",
+        "style-system",
+        "svg",
+        "layout-grid"
+      ],
+      "Ting-Yu Lin": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-overflow",
+        "layout-text",
+        "printing"
       ]
     }
   }
