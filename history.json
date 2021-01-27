@@ -1991,6 +1991,30 @@
         "printing",
         "svg"
       ]
+    },
+    "2021-03-29": {
+      "Hiro Ikezoe": [
+        "layout-form-controls",
+        "layout-grid",
+        "layout-positioned",
+        "layout-text",
+        "layout-overflow",
+        "layout-generated",
+        "layout-ruby",
+        "style-system",
+        "layout-block-inline"
+      ],
+      "Daniel Holbert": [
+        "animation",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-general",
+        "layout-replaced",
+        "layout-tables",
+        "printing",
+        "svg"
+      ]
     }
   }
 }
