@@ -2087,6 +2087,30 @@
         "style-system",
         "svg"
       ]
+    },
+    "2021-04-26": {
+      "Emilio Cobos Alvarez": [
+        "layout-columns",
+        "layout-tables",
+        "layout-grid",
+        "layout-form-controls",
+        "layout-general",
+        "layout-text",
+        "animation",
+        "layout-replaced",
+        "printing"
+      ],
+      "Hiro Ikezoe": [
+        "layout-block-inline",
+        "layout-flex",
+        "layout-floats",
+        "layout-generated",
+        "layout-overflow",
+        "layout-positioned",
+        "layout-ruby",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
