@@ -2111,6 +2111,30 @@
         "style-system",
         "svg"
       ]
+    },
+    "2021-05-03": {
+      "Daniel Holbert": [
+        "svg",
+        "layout-form-controls",
+        "printing",
+        "layout-columns",
+        "layout-grid",
+        "layout-generated",
+        "style-system",
+        "layout-block-inline",
+        "layout-ruby"
+      ],
+      "Emily McDonough": [
+        "animation",
+        "layout-flex",
+        "layout-floats",
+        "layout-general",
+        "layout-overflow",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables",
+        "layout-text"
+      ]
     }
   }
 }
