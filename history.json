@@ -2183,6 +2183,30 @@
         "style-system",
         "svg"
       ]
+    },
+    "2021-05-24": {
+      "Jonathan Watt": [
+        "layout-positioned",
+        "layout-general",
+        "layout-tables",
+        "layout-floats",
+        "printing",
+        "svg",
+        "animation",
+        "layout-generated",
+        "layout-text"
+      ],
+      "Emilio Cobos Alvarez": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-overflow",
+        "layout-replaced",
+        "layout-ruby",
+        "style-system"
+      ]
     }
   }
 }
