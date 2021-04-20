@@ -2279,6 +2279,30 @@
         "style-system",
         "svg"
       ]
+    },
+    "2021-06-21": {
+      "Jonathan Kew": [
+        "layout-general",
+        "layout-flex",
+        "layout-ruby",
+        "printing",
+        "layout-text",
+        "layout-generated",
+        "layout-overflow",
+        "layout-floats",
+        "layout-grid"
+      ],
+      "Jonathan Watt": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-form-controls",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
