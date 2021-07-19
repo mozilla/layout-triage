@@ -2543,6 +2543,30 @@
         "layout-ruby",
         "style-system"
       ]
+    },
+    "2021-09-06": {
+      "Daniel Holbert": [
+        "layout-flex",
+        "layout-grid",
+        "layout-block-inline",
+        "layout-general",
+        "printing",
+        "animation",
+        "layout-replaced",
+        "layout-floats",
+        "layout-text"
+      ],
+      "Emily McDonough": [
+        "layout-columns",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-overflow",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-tables",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
