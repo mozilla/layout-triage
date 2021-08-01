@@ -2567,6 +2567,54 @@
         "style-system",
         "svg"
       ]
+    },
+    "2021-09-13": {
+      "Boris Chiou": [
+        "layout-general",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-form-controls",
+        "layout-columns",
+        "layout-ruby",
+        "layout-flex",
+        "layout-text",
+        "animation"
+      ],
+      "Ting-Yu Lin": [
+        "layout-block-inline",
+        "layout-floats",
+        "layout-generated",
+        "layout-grid",
+        "layout-overflow",
+        "layout-tables",
+        "printing",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2021-09-20": {
+      "Mats Palmgren": [
+        "layout-general",
+        "layout-replaced",
+        "style-system",
+        "layout-positioned",
+        "layout-flex",
+        "layout-grid",
+        "layout-generated",
+        "layout-text",
+        "layout-block-inline"
+      ],
+      "Jonathan Kew": [
+        "animation",
+        "layout-columns",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-overflow",
+        "layout-ruby",
+        "layout-tables",
+        "printing",
+        "svg"
+      ]
     }
   }
 }
