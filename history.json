@@ -2663,6 +2663,30 @@
         "layout-text",
         "style-system"
       ]
+    },
+    "2021-10-11": {
+      "Emily McDonough": [
+        "layout-block-inline",
+        "layout-overflow",
+        "layout-flex",
+        "layout-tables",
+        "printing",
+        "layout-form-controls",
+        "svg",
+        "layout-generated",
+        "layout-grid"
+      ],
+      "Boris Chiou": [
+        "animation",
+        "layout-columns",
+        "layout-floats",
+        "layout-general",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-text",
+        "style-system"
+      ]
     }
   }
 }
