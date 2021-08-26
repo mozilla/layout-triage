@@ -2687,6 +2687,30 @@
         "layout-text",
         "style-system"
       ]
+    },
+    "2021-10-18": {
+      "Ting-Yu Lin": [
+        "layout-ruby",
+        "layout-general",
+        "svg",
+        "layout-flex",
+        "layout-overflow",
+        "layout-positioned",
+        "layout-floats",
+        "layout-generated",
+        "layout-tables"
+      ],
+      "Mats Palmgren": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-replaced",
+        "layout-text",
+        "printing",
+        "style-system"
+      ]
     }
   }
 }
