@@ -2759,6 +2759,30 @@
         "printing",
         "style-system"
       ]
+    },
+    "2021-11-08": {
+      "Daniel Holbert": [
+        "layout-form-controls",
+        "layout-block-inline",
+        "layout-replaced",
+        "layout-columns",
+        "layout-overflow",
+        "printing",
+        "layout-generated",
+        "layout-floats",
+        "layout-grid"
+      ],
+      "Emily McDonough": [
+        "animation",
+        "layout-flex",
+        "layout-general",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
