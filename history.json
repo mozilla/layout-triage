@@ -2783,6 +2783,30 @@
         "style-system",
         "svg"
       ]
+    },
+    "2021-11-15": {
+      "Boris Chiou": [
+        "svg",
+        "layout-tables",
+        "layout-general",
+        "style-system",
+        "layout-positioned",
+        "layout-floats",
+        "layout-block-inline",
+        "layout-replaced",
+        "layout-form-controls"
+      ],
+      "Ting-Yu Lin": [
+        "animation",
+        "layout-columns",
+        "layout-flex",
+        "layout-generated",
+        "layout-grid",
+        "layout-overflow",
+        "layout-ruby",
+        "layout-text",
+        "printing"
+      ]
     }
   }
 }
