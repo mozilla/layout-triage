@@ -2807,6 +2807,30 @@
         "layout-text",
         "printing"
       ]
+    },
+    "2021-11-22": {
+      "Mats Palmgren": [
+        "layout-grid",
+        "layout-floats",
+        "layout-generated",
+        "printing",
+        "layout-form-controls",
+        "layout-general",
+        "svg",
+        "layout-ruby",
+        "layout-overflow"
+      ],
+      "Jonathan Kew": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables",
+        "layout-text",
+        "style-system"
+      ]
     }
   }
 }
