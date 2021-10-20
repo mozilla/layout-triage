@@ -2879,6 +2879,30 @@
         "layout-ruby",
         "svg"
       ]
+    },
+    "2021-12-13": {
+      "Emily McDonough": [
+        "layout-columns",
+        "layout-replaced",
+        "layout-general",
+        "printing",
+        "layout-grid",
+        "style-system",
+        "layout-tables",
+        "animation",
+        "layout-text"
+      ],
+      "Boris Chiou": [
+        "layout-block-inline",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-overflow",
+        "layout-positioned",
+        "layout-ruby",
+        "svg"
+      ]
     }
   }
 }
