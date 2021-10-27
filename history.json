@@ -2903,6 +2903,30 @@
         "layout-ruby",
         "svg"
       ]
+    },
+    "2021-12-20": {
+      "Ting-Yu Lin": [
+        "layout-text",
+        "layout-columns",
+        "layout-grid",
+        "layout-overflow",
+        "layout-general",
+        "layout-ruby",
+        "animation",
+        "layout-floats",
+        "layout-replaced"
+      ],
+      "Mats Palmgren": [
+        "layout-block-inline",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-positioned",
+        "layout-tables",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
