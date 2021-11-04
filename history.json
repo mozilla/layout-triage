@@ -2927,6 +2927,30 @@
         "style-system",
         "svg"
       ]
+    },
+    "2021-12-27": {
+      "Jonathan Kew": [
+        "layout-positioned",
+        "layout-overflow",
+        "layout-replaced",
+        "layout-form-controls",
+        "style-system",
+        "svg",
+        "layout-columns",
+        "layout-grid",
+        "layout-flex"
+      ],
+      "Jonathan Watt": [
+        "animation",
+        "layout-block-inline",
+        "layout-floats",
+        "layout-general",
+        "layout-generated",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "printing"
+      ]
     }
   }
 }
