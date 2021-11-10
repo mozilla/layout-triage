@@ -2951,6 +2951,30 @@
         "layout-text",
         "printing"
       ]
+    },
+    "2022-01-03": {
+      "Emilio Cobos Alvarez": [
+        "printing",
+        "layout-generated",
+        "layout-columns",
+        "layout-general",
+        "layout-grid",
+        "layout-form-controls",
+        "layout-ruby",
+        "layout-positioned",
+        "layout-block-inline"
+      ],
+      "Hiro Ikezoe": [
+        "animation",
+        "layout-flex",
+        "layout-floats",
+        "layout-overflow",
+        "layout-replaced",
+        "layout-tables",
+        "layout-text",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
