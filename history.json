@@ -3023,6 +3023,30 @@
         "style-system",
         "svg"
       ]
+    },
+    "2022-01-24": {
+      "Jonathan Watt": [
+        "animation",
+        "layout-general",
+        "layout-grid",
+        "layout-floats",
+        "layout-text",
+        "layout-ruby",
+        "layout-generated",
+        "layout-positioned",
+        "layout-tables"
+      ],
+      "Emilio Cobos Alvarez": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-overflow",
+        "layout-replaced",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
