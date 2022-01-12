@@ -3095,6 +3095,30 @@
         "layout-text",
         "style-system"
       ]
+    },
+    "2022-02-14": {
+      "Ting-Yu Lin": [
+        "layout-positioned",
+        "layout-block-inline",
+        "layout-ruby",
+        "layout-tables",
+        "layout-form-controls",
+        "layout-replaced",
+        "layout-overflow",
+        "layout-columns",
+        "layout-generated"
+      ],
+      "Jonathan Kew": [
+        "animation",
+        "layout-flex",
+        "layout-floats",
+        "layout-general",
+        "layout-grid",
+        "layout-text",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
