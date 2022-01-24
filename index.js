@@ -1,7 +1,8 @@
 const fs = require('fs');
 const ical = require('ical-toolkit');
 const ghpages = require('gh-pages');
-const fetch = require('node-fetch');
+/* Importing as suggested on https://www.npmjs.com/package/node-fetch */
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
 const PUBLISHED_URL = 'https://mozilla.github.io/layout-triage';
 const DIST_DIR = 'dist';
