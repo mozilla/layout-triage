@@ -3311,6 +3311,30 @@
         "layout-tables",
         "printing"
       ]
+    },
+    "2022-04-18": {
+      "Hiro Ikezoe": [
+        "layout-floats",
+        "layout-grid",
+        "layout-columns",
+        "layout-flex",
+        "layout-tables",
+        "layout-general",
+        "layout-ruby",
+        "layout-generated",
+        "layout-positioned"
+      ],
+      "Daniel Holbert": [
+        "animation",
+        "layout-block-inline",
+        "layout-form-controls",
+        "layout-overflow",
+        "layout-replaced",
+        "layout-text",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
