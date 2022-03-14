@@ -3335,6 +3335,30 @@
         "style-system",
         "svg"
       ]
+    },
+    "2022-04-25": {
+      "Emily McDonough": [
+        "layout-replaced",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-overflow",
+        "layout-tables",
+        "layout-positioned",
+        "layout-floats",
+        "layout-generated",
+        "svg"
+      ],
+      "Boris Chiou": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-general",
+        "layout-ruby",
+        "layout-text",
+        "printing",
+        "style-system"
+      ]
     }
   }
 }
