@@ -3289,7 +3289,7 @@
       ]
     },
     "2022-04-11": {
-      "Jonathan Watt": [
+      "Daniel Holbert": [
         "layout-text",
         "layout-generated",
         "svg",
@@ -3324,7 +3324,7 @@
         "layout-generated",
         "layout-positioned"
       ],
-      "Daniel Holbert": [
+      "Jonathan Watt": [
         "animation",
         "layout-block-inline",
         "layout-form-controls",
@@ -3382,6 +3382,54 @@
         "layout-replaced",
         "layout-ruby",
         "style-system"
+      ]
+    },
+    "2022-05-09": {
+      "Emilio Cobos Alvarez": [
+        "layout-general",
+        "animation",
+        "printing",
+        "layout-ruby",
+        "layout-generated",
+        "layout-positioned",
+        "layout-form-controls",
+        "layout-replaced",
+        "layout-tables"
+      ],
+      "Hiro Ikezoe": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-grid",
+        "layout-overflow",
+        "layout-text",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2022-05-16": {
+      "Daniel Holbert": [
+        "layout-form-controls",
+        "layout-text",
+        "animation",
+        "style-system",
+        "layout-grid",
+        "layout-block-inline",
+        "layout-general",
+        "layout-replaced",
+        "layout-ruby"
+      ],
+      "Emily McDonough": [
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-generated",
+        "layout-overflow",
+        "layout-positioned",
+        "layout-tables",
+        "printing",
+        "svg"
       ]
     }
   }
