@@ -3431,6 +3431,30 @@
         "printing",
         "svg"
       ]
+    },
+    "2022-05-23": {
+      "Boris Chiou": [
+        "animation",
+        "layout-block-inline",
+        "layout-replaced",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-text",
+        "layout-flex",
+        "layout-tables",
+        "layout-columns"
+      ],
+      "Jonathan Kew": [
+        "layout-floats",
+        "layout-general",
+        "layout-grid",
+        "layout-overflow",
+        "layout-positioned",
+        "layout-ruby",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
