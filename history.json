@@ -3503,6 +3503,30 @@
         "layout-text",
         "svg"
       ]
+    },
+    "2022-06-13": {
+      "David Shin": [
+        "layout-overflow",
+        "layout-block-inline",
+        "svg",
+        "layout-text",
+        "style-system",
+        "layout-flex",
+        "layout-floats",
+        "layout-grid",
+        "layout-generated"
+      ],
+      "Emily McDonough": [
+        "animation",
+        "layout-columns",
+        "layout-form-controls",
+        "layout-general",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "printing"
+      ]
     }
   }
 }

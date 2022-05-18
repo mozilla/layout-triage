@@ -38,6 +38,9 @@
     },
     "Ting-Yu Lin": {
       "bzmail": "aethanyc@gmail.com"
+    },
+    "David Shin": {
+      "bzmail": "dshin@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -150,6 +153,7 @@
     "2022-05-16": "Emily McDonough",
     "2022-05-23": "Jonathan Kew",
     "2022-05-30": "Jonathan Watt",
-    "2022-06-06": "Hiro Ikezoe"
+    "2022-06-06": "Hiro Ikezoe",
+    "2022-06-13": "David Shin"
   }
 }
