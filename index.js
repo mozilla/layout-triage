@@ -276,7 +276,8 @@ function runReset() {
 function runPublish() {
   ghpages.publish(DIST_DIR, function (err) {
     if (err) {
-      console.error('There was an error during publishing.');
+      console.error('There was an error during publishing:');
+      console.error(err.message);
     } else {
       console.log('Publish to GitHub was successful.');
     }
