@@ -3479,6 +3479,30 @@
         "style-system",
         "svg"
       ]
+    },
+    "2022-06-06": {
+      "Hiro Ikezoe": [
+        "layout-general",
+        "layout-flex",
+        "style-system",
+        "layout-tables",
+        "layout-overflow",
+        "animation",
+        "layout-form-controls",
+        "layout-columns",
+        "printing"
+      ],
+      "Daniel Holbert": [
+        "layout-block-inline",
+        "layout-floats",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-text",
+        "svg"
+      ]
     }
   }
 }
