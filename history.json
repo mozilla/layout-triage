@@ -3717,6 +3717,29 @@
         "layout-text",
         "svg"
       ]
+    },
+    "2022-08-15": {
+      "Boris Chiou": [
+        "svg",
+        "layout-general",
+        "layout-tables",
+        "style-system",
+        "layout-form-controls",
+        "layout-block-inline",
+        "layout-columns",
+        "animation"
+      ],
+      "Ting-Yu Lin": [
+        "layout-flex",
+        "layout-floats",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-text",
+        "printing"
+      ]
     }
   }
 }
