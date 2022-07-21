@@ -3671,6 +3671,29 @@
         "style-system",
         "svg"
       ]
+    },
+    "2022-08-01": {
+      "Emilio Cobos Alvarez": [
+        "layout-generated",
+        "layout-general",
+        "layout-flex",
+        "layout-tables",
+        "svg",
+        "layout-columns",
+        "layout-floats",
+        "layout-grid"
+      ],
+      "Daniel Holbert": [
+        "animation",
+        "layout-block-inline",
+        "layout-form-controls",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-text",
+        "printing",
+        "style-system"
+      ]
     }
   }
 }
