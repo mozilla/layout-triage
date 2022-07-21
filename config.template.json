@@ -23,9 +23,6 @@
     },
     "Emilio Cobos Alvarez": {
       "bzmail": ""
-    },
-    "Hiro Ikezoe": {
-      "bzmail": ""
     }
   },
   "components": {
@@ -38,7 +35,6 @@
     "layout-general": ["Layout"],
     "layout-generated": ["Layout: Generated Content, Lists, and Counters"],
     "layout-grid": ["Layout: Grid"],
-    "layout-overflow": ["Layout: Scrolling and Overflow"],
     "layout-positioned": ["Layout: Positioned"],
     "layout-replaced": ["Layout: Images, Video, and HTML Frames"],
     "layout-ruby": ["Layout: Ruby"],
