@@ -3694,6 +3694,29 @@
         "printing",
         "style-system"
       ]
+    },
+    "2022-08-08": {
+      "David Shin": [
+        "animation",
+        "layout-flex",
+        "printing",
+        "layout-general",
+        "layout-generated",
+        "layout-columns",
+        "style-system",
+        "layout-form-controls"
+      ],
+      "Emily McDonough": [
+        "layout-block-inline",
+        "layout-floats",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "svg"
+      ]
     }
   }
 }

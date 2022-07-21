@@ -38,6 +38,9 @@
     },
     "Daniel Holbert": {
       "bzmail": "dholbert@mozilla.com"
+    },
+    "David Shin": {
+      "bzmail": "dshin@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -158,6 +161,7 @@
     "2022-07-11": "Emily McDonough",
     "2022-07-18": "Ting-Yu Lin",
     "2022-07-25": "Jonathan Kew",
-    "2022-08-01": "Daniel Holbert"
+    "2022-08-01": "Daniel Holbert",
+    "2022-08-08": "David Shin"
   }
 }
