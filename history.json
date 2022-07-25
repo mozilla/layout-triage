@@ -3740,6 +3740,29 @@
         "layout-text",
         "printing"
       ]
+    },
+    "2022-08-22": {
+      "Jonathan Kew": [
+        "layout-form-controls",
+        "layout-block-inline",
+        "layout-text",
+        "style-system",
+        "printing",
+        "layout-ruby",
+        "svg",
+        "layout-generated"
+      ],
+      "Jonathan Watt": [
+        "animation",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-general",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables"
+      ]
     }
   }
 }
