@@ -38,6 +38,9 @@
     },
     "Cameron McCormack": {
       "bzmail": "cam@mcc.id.au"
+    },
+    "David Shin": {
+      "bzmail": ""
     }
   },
   "duty-start-dates": {
@@ -162,6 +165,7 @@
     "2022-08-08": "Emily McDonough",
     "2022-08-15": "Ting-Yu Lin",
     "2022-08-22": "Jonathan Watt",
-    "2022-08-29": "Emilio Cobos Alvarez"
+    "2022-08-29": "Emilio Cobos Alvarez",
+    "2022-09-05": "David Shin"
   }
 }
