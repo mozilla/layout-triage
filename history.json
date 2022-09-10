@@ -3855,6 +3855,75 @@
         "layout-text",
         "style-system"
       ]
+    },
+    "2022-09-26": {
+      "Emilio Cobos Alvarez": [
+        "layout-positioned",
+        "layout-grid",
+        "layout-generated",
+        "layout-block-inline",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-replaced",
+        "animation"
+      ],
+      "Daniel Holbert": [
+        "layout-columns",
+        "layout-flex",
+        "layout-general",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2022-10-03": {
+      "David Shin": [
+        "layout-columns",
+        "svg",
+        "layout-ruby",
+        "layout-flex",
+        "layout-tables",
+        "layout-floats",
+        "animation",
+        "layout-replaced"
+      ],
+      "Emily McDonough": [
+        "layout-block-inline",
+        "layout-form-controls",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-text",
+        "printing",
+        "style-system"
+      ]
+    },
+    "2022-10-10": {
+      "Boris Chiou": [
+        "animation",
+        "layout-replaced",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-block-inline",
+        "layout-flex",
+        "layout-text",
+        "layout-general"
+      ],
+      "Ting-Yu Lin": [
+        "layout-columns",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-tables",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
