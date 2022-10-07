@@ -3993,6 +3993,52 @@
         "layout-ruby",
         "layout-text"
       ]
+    },
+    "2022-11-07": {
+      "Emily McDonough": [
+        "animation",
+        "layout-flex",
+        "style-system",
+        "layout-tables",
+        "layout-text",
+        "layout-form-controls",
+        "layout-ruby",
+        "layout-columns"
+      ],
+      "Boris Chiou": [
+        "layout-block-inline",
+        "layout-floats",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "printing",
+        "svg"
+      ]
+    },
+    "2022-11-14": {
+      "Ting-Yu Lin": [
+        "layout-columns",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-text",
+        "layout-replaced",
+        "layout-grid",
+        "layout-ruby",
+        "printing"
+      ],
+      "Jonathan Kew": [
+        "animation",
+        "layout-block-inline",
+        "layout-floats",
+        "layout-general",
+        "layout-generated",
+        "layout-positioned",
+        "layout-tables",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
