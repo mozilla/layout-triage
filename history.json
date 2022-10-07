@@ -3970,6 +3970,29 @@
         "style-system",
         "svg"
       ]
+    },
+    "2022-10-31": {
+      "David Shin": [
+        "svg",
+        "style-system",
+        "printing",
+        "layout-tables",
+        "layout-replaced",
+        "layout-floats",
+        "layout-columns",
+        "layout-generated"
+      ],
+      "Tiaan Louw": [
+        "animation",
+        "layout-block-inline",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-general",
+        "layout-grid",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-text"
+      ]
     }
   }
 }
