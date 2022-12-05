@@ -4177,6 +4177,52 @@
         "printing",
         "svg"
       ]
+    },
+    "2023-01-02": {
+      "David Shin": [
+        "layout-ruby",
+        "layout-grid",
+        "layout-general",
+        "layout-form-controls",
+        "animation",
+        "layout-generated",
+        "layout-flex",
+        "layout-floats"
+      ],
+      "Tiaan Louw": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2023-01-09": {
+      "Emily McDonough": [
+        "style-system",
+        "layout-tables",
+        "printing",
+        "layout-form-controls",
+        "layout-columns",
+        "layout-flex",
+        "layout-positioned",
+        "layout-generated"
+      ],
+      "Boris Chiou": [
+        "animation",
+        "layout-block-inline",
+        "layout-floats",
+        "layout-general",
+        "layout-grid",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-text",
+        "svg"
+      ]
     }
   }
 }
