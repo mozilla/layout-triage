@@ -4223,6 +4223,29 @@
         "layout-text",
         "svg"
       ]
+    },
+    "2023-01-16": {
+      "Ting-Yu Lin": [
+        "layout-positioned",
+        "layout-floats",
+        "layout-replaced",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-block-inline",
+        "layout-text",
+        "layout-general"
+      ],
+      "Jonathan Kew": [
+        "animation",
+        "layout-columns",
+        "layout-flex",
+        "layout-generated",
+        "layout-ruby",
+        "layout-tables",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
