@@ -4338,6 +4338,52 @@
         "layout-text",
         "svg"
       ]
+    },
+    "2023-02-20": {
+      "Jonathan Kew": [
+        "style-system",
+        "svg",
+        "layout-form-controls",
+        "layout-flex",
+        "layout-tables",
+        "layout-columns",
+        "layout-floats",
+        "layout-text"
+      ],
+      "Jonathan Watt": [
+        "animation",
+        "layout-block-inline",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "printing"
+      ]
+    },
+    "2023-02-27": {
+      "Emilio Cobos Alvarez": [
+        "layout-text",
+        "layout-columns",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-general",
+        "layout-form-controls",
+        "layout-ruby",
+        "animation"
+      ],
+      "Daniel Holbert": [
+        "layout-block-inline",
+        "layout-flex",
+        "layout-floats",
+        "layout-generated",
+        "layout-grid",
+        "layout-tables",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
