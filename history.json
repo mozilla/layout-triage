@@ -4453,6 +4453,29 @@
         "style-system",
         "svg"
       ]
+    },
+    "2023-03-27": {
+      "Jonathan Watt": [
+        "layout-text",
+        "layout-grid",
+        "layout-columns",
+        "layout-general",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-block-inline",
+        "layout-ruby"
+      ],
+      "Emilio Cobos Alvarez": [
+        "animation",
+        "layout-flex",
+        "layout-generated",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
