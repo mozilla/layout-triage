@@ -4591,6 +4591,29 @@
         "layout-ruby",
         "style-system"
       ]
+    },
+    "2023-05-08": {
+      "David Shin": [
+        "animation",
+        "layout-positioned",
+        "layout-text",
+        "layout-flex",
+        "layout-block-inline",
+        "layout-generated",
+        "layout-floats",
+        "layout-columns"
+      ],
+      "Tiaan Louw": [
+        "layout-form-controls",
+        "layout-general",
+        "layout-grid",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
