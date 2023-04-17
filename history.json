@@ -4614,6 +4614,75 @@
         "style-system",
         "svg"
       ]
+    },
+    "2023-05-15": {
+      "Emily McDonough": [
+        "printing",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-flex",
+        "layout-text",
+        "layout-replaced",
+        "svg",
+        "layout-floats"
+      ],
+      "Boris Chiou": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-form-controls",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-tables",
+        "style-system"
+      ]
+    },
+    "2023-05-22": {
+      "Ting-Yu Lin": [
+        "style-system",
+        "layout-form-controls",
+        "layout-general",
+        "printing",
+        "layout-generated",
+        "animation",
+        "layout-grid",
+        "layout-ruby"
+      ],
+      "Jonathan Kew": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables",
+        "layout-text",
+        "svg"
+      ]
+    },
+    "2023-05-29": {
+      "Jonathan Watt": [
+        "layout-floats",
+        "layout-columns",
+        "layout-positioned",
+        "layout-ruby",
+        "style-system",
+        "layout-block-inline",
+        "layout-flex",
+        "layout-general"
+      ],
+      "Emilio Cobos Alvarez": [
+        "animation",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-grid",
+        "layout-replaced",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "svg"
+      ]
     }
   }
 }
