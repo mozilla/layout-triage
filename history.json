@@ -4683,6 +4683,29 @@
         "printing",
         "svg"
       ]
+    },
+    "2023-06-05": {
+      "Daniel Holbert": [
+        "layout-replaced",
+        "printing",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-general",
+        "style-system",
+        "layout-flex",
+        "layout-positioned"
+      ],
+      "David Shin": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-floats",
+        "layout-generated",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "svg"
+      ]
     }
   }
 }
