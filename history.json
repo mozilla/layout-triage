@@ -5028,6 +5028,29 @@
         "printing",
         "style-system"
       ]
+    },
+    "2023-09-18": {
+      "Emily McDonough": [
+        "printing",
+        "layout-form-controls",
+        "layout-floats",
+        "layout-flex",
+        "layout-ruby",
+        "layout-columns",
+        "layout-positioned",
+        "layout-tables"
+      ],
+      "Boris Chiou": [
+        "animation",
+        "layout-block-inline",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-replaced",
+        "layout-text",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
