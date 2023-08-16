@@ -5051,6 +5051,52 @@
         "style-system",
         "svg"
       ]
+    },
+    "2023-09-25": {
+      "Ting-Yu Lin": [
+        "layout-generated",
+        "layout-tables",
+        "layout-flex",
+        "animation",
+        "style-system",
+        "layout-general",
+        "layout-floats",
+        "svg"
+      ],
+      "Jonathan Kew": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-text",
+        "printing"
+      ]
+    },
+    "2023-10-02": {
+      "Jonathan Watt": [
+        "style-system",
+        "layout-positioned",
+        "layout-text",
+        "layout-columns",
+        "printing",
+        "layout-ruby",
+        "layout-flex",
+        "layout-floats"
+      ],
+      "Emilio Cobos Alvarez": [
+        "animation",
+        "layout-block-inline",
+        "layout-form-controls",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-replaced",
+        "layout-tables",
+        "svg"
+      ]
     }
   }
 }
