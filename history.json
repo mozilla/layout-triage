@@ -5097,6 +5097,29 @@
         "layout-tables",
         "svg"
       ]
+    },
+    "2023-10-09": {
+      "Daniel Holbert": [
+        "svg",
+        "layout-ruby",
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-general",
+        "printing",
+        "layout-form-controls"
+      ],
+      "David Shin": [
+        "layout-flex",
+        "layout-floats",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables",
+        "layout-text",
+        "style-system"
+      ]
     }
   }
 }
