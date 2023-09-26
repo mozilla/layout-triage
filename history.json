@@ -5120,6 +5120,98 @@
         "layout-text",
         "style-system"
       ]
+    },
+    "2023-10-16": {
+      "Tiaan Louw": [
+        "layout-positioned",
+        "layout-general",
+        "animation",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-grid",
+        "layout-form-controls",
+        "layout-flex"
+      ],
+      "Emily McDonough": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-floats",
+        "layout-generated",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2023-10-23": {
+      "Boris Chiou": [
+        "layout-columns",
+        "layout-floats",
+        "layout-flex",
+        "printing",
+        "layout-replaced",
+        "layout-generated",
+        "layout-form-controls",
+        "svg"
+      ],
+      "Ting-Yu Lin": [
+        "animation",
+        "layout-block-inline",
+        "layout-general",
+        "layout-grid",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "style-system"
+      ]
+    },
+    "2023-10-30": {
+      "Jonathan Kew": [
+        "layout-text",
+        "printing",
+        "layout-general",
+        "layout-form-controls",
+        "style-system",
+        "layout-columns",
+        "layout-floats",
+        "layout-flex"
+      ],
+      "Jonathan Watt": [
+        "animation",
+        "layout-block-inline",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "svg"
+      ]
+    },
+    "2023-11-06": {
+      "Emilio Cobos Alvarez": [
+        "layout-grid",
+        "layout-tables",
+        "svg",
+        "layout-flex",
+        "layout-form-controls",
+        "style-system",
+        "layout-ruby",
+        "layout-generated"
+      ],
+      "Daniel Holbert": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-floats",
+        "layout-general",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-text",
+        "printing"
+      ]
     }
   }
 }
