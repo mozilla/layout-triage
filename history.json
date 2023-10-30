@@ -5212,6 +5212,121 @@
         "layout-text",
         "printing"
       ]
+    },
+    "2023-11-13": {
+      "David Shin": [
+        "layout-form-controls",
+        "layout-grid",
+        "svg",
+        "layout-generated",
+        "layout-general",
+        "layout-block-inline",
+        "layout-positioned",
+        "layout-replaced"
+      ],
+      "Tiaan Louw": [
+        "animation",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "style-system"
+      ]
+    },
+    "2023-11-20": {
+      "Emily McDonough": [
+        "layout-block-inline",
+        "layout-ruby",
+        "style-system",
+        "layout-replaced",
+        "animation",
+        "layout-general",
+        "layout-floats",
+        "layout-flex"
+      ],
+      "Boris Chiou": [
+        "layout-columns",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "svg"
+      ]
+    },
+    "2023-11-27": {
+      "Ting-Yu Lin": [
+        "layout-text",
+        "style-system",
+        "layout-replaced",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-columns",
+        "layout-general",
+        "layout-block-inline"
+      ],
+      "Jonathan Kew": [
+        "animation",
+        "layout-flex",
+        "layout-floats",
+        "layout-grid",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-tables",
+        "printing",
+        "svg"
+      ]
+    },
+    "2023-12-04": {
+      "Jonathan Watt": [
+        "svg",
+        "layout-tables",
+        "layout-text",
+        "layout-form-controls",
+        "layout-columns",
+        "layout-replaced",
+        "layout-ruby",
+        "animation"
+      ],
+      "Emilio Cobos Alvarez": [
+        "layout-block-inline",
+        "layout-flex",
+        "layout-floats",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "printing",
+        "style-system"
+      ]
+    },
+    "2023-12-11": {
+      "Daniel Holbert": [
+        "layout-ruby",
+        "animation",
+        "layout-floats",
+        "layout-grid",
+        "layout-general",
+        "style-system",
+        "layout-replaced",
+        "layout-text"
+      ],
+      "David Shin": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-positioned",
+        "layout-tables",
+        "printing",
+        "svg"
+      ]
     }
   }
 }
