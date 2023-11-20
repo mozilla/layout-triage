@@ -5327,6 +5327,98 @@
         "printing",
         "svg"
       ]
+    },
+    "2023-12-18": {
+      "Tiaan Louw": [
+        "layout-block-inline",
+        "layout-ruby",
+        "layout-grid",
+        "layout-text",
+        "layout-replaced",
+        "svg",
+        "layout-positioned",
+        "animation"
+      ],
+      "Emily McDonough": [
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-general",
+        "layout-generated",
+        "layout-tables",
+        "printing",
+        "style-system"
+      ]
+    },
+    "2023-12-25": {
+      "Boris Chiou": [
+        "layout-block-inline",
+        "svg",
+        "layout-tables",
+        "layout-form-controls",
+        "layout-general",
+        "layout-ruby",
+        "layout-columns",
+        "layout-positioned"
+      ],
+      "Ting-Yu Lin": [
+        "animation",
+        "layout-flex",
+        "layout-floats",
+        "layout-generated",
+        "layout-grid",
+        "layout-replaced",
+        "layout-text",
+        "printing",
+        "style-system"
+      ]
+    },
+    "2024-01-01": {
+      "Jonathan Kew": [
+        "layout-generated",
+        "layout-floats",
+        "animation",
+        "printing",
+        "layout-positioned",
+        "layout-replaced",
+        "svg",
+        "layout-tables"
+      ],
+      "Jonathan Watt": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-general",
+        "layout-grid",
+        "layout-ruby",
+        "layout-text",
+        "style-system"
+      ]
+    },
+    "2024-01-08": {
+      "Emilio Cobos Alvarez": [
+        "layout-general",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-flex",
+        "layout-grid"
+      ],
+      "Daniel Holbert": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-replaced",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
