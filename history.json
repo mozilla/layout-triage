@@ -5419,6 +5419,75 @@
         "style-system",
         "svg"
       ]
+    },
+    "2024-01-15": {
+      "David Shin": [
+        "layout-floats",
+        "printing",
+        "layout-columns",
+        "svg",
+        "layout-flex",
+        "layout-form-controls",
+        "animation",
+        "layout-general"
+      ],
+      "Tiaan Louw": [
+        "layout-block-inline",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "style-system"
+      ]
+    },
+    "2024-01-22": {
+      "Emily McDonough": [
+        "layout-positioned",
+        "svg",
+        "printing",
+        "layout-replaced",
+        "layout-block-inline",
+        "layout-general",
+        "layout-generated",
+        "layout-columns"
+      ],
+      "Boris Chiou": [
+        "animation",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "style-system"
+      ]
+    },
+    "2024-01-29": {
+      "Ting-Yu Lin": [
+        "animation",
+        "layout-form-controls",
+        "layout-block-inline",
+        "layout-ruby",
+        "layout-floats",
+        "layout-columns",
+        "layout-grid",
+        "layout-generated"
+      ],
+      "Jonathan Kew": [
+        "layout-flex",
+        "layout-general",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
