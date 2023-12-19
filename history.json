@@ -5488,6 +5488,52 @@
         "style-system",
         "svg"
       ]
+    },
+    "2024-02-05": {
+      "Jonathan Watt": [
+        "svg",
+        "printing",
+        "layout-positioned",
+        "layout-floats",
+        "layout-text",
+        "layout-generated",
+        "layout-grid",
+        "layout-general"
+      ],
+      "Emilio Cobos Alvarez": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "style-system"
+      ]
+    },
+    "2024-02-12": {
+      "Daniel Holbert": [
+        "layout-text",
+        "style-system",
+        "svg",
+        "layout-positioned",
+        "layout-columns",
+        "layout-replaced",
+        "layout-floats",
+        "layout-form-controls"
+      ],
+      "David Shin": [
+        "animation",
+        "layout-block-inline",
+        "layout-flex",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-ruby",
+        "layout-tables",
+        "printing"
+      ]
     }
   }
 }
