@@ -5580,6 +5580,29 @@
         "layout-text",
         "svg"
       ]
+    },
+    "2024-03-04": {
+      "Jonathan Kew": [
+        "layout-grid",
+        "layout-generated",
+        "layout-text",
+        "layout-replaced",
+        "style-system",
+        "layout-positioned",
+        "layout-form-controls",
+        "animation"
+      ],
+      "Jonathan Watt": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-general",
+        "layout-ruby",
+        "layout-tables",
+        "printing",
+        "svg"
+      ]
     }
   }
 }
