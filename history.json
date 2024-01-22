@@ -5603,6 +5603,29 @@
         "printing",
         "svg"
       ]
+    },
+    "2024-03-11": {
+      "Emilio Cobos Alvarez": [
+        "layout-tables",
+        "layout-ruby",
+        "layout-generated",
+        "layout-block-inline",
+        "layout-general",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats"
+      ],
+      "Daniel Holbert": [
+        "animation",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-text",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
