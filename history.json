@@ -5741,6 +5741,29 @@
         "layout-text",
         "printing"
       ]
+    },
+    "2024-04-22": {
+      "Tiaan Louw": [
+        "animation",
+        "layout-text",
+        "printing",
+        "layout-ruby",
+        "style-system",
+        "svg",
+        "layout-columns",
+        "layout-replaced"
+      ],
+      "Emily McDonough": [
+        "layout-block-inline",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-tables"
+      ]
     }
   }
 }
