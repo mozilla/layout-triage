@@ -5925,6 +5925,52 @@
         "printing",
         "style-system"
       ]
+    },
+    "2024-06-17": {
+      "Daniel Holbert": [
+        "style-system",
+        "layout-floats",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-tables",
+        "layout-general",
+        "layout-positioned",
+        "layout-replaced"
+      ],
+      "David Shin": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-generated",
+        "layout-grid",
+        "layout-ruby",
+        "layout-text",
+        "printing",
+        "svg"
+      ]
+    },
+    "2024-06-24": {
+      "Tiaan Louw": [
+        "layout-generated",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-positioned",
+        "layout-form-controls",
+        "layout-text",
+        "layout-tables",
+        "layout-general"
+      ],
+      "Emily McDonough": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-grid",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
