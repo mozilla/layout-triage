@@ -5971,6 +5971,98 @@
         "style-system",
         "svg"
       ]
+    },
+    "2024-07-01": {
+      "Boris Chiou": [
+        "layout-ruby",
+        "layout-general",
+        "layout-flex",
+        "layout-text",
+        "printing",
+        "layout-generated",
+        "layout-floats",
+        "svg"
+      ],
+      "Ting-Yu Lin": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables",
+        "style-system"
+      ]
+    },
+    "2024-07-08": {
+      "Jonathan Kew": [
+        "printing",
+        "layout-grid",
+        "svg",
+        "layout-text",
+        "layout-form-controls",
+        "layout-columns",
+        "animation",
+        "layout-flex"
+      ],
+      "Jonathan Watt": [
+        "layout-block-inline",
+        "layout-floats",
+        "layout-general",
+        "layout-generated",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "style-system"
+      ]
+    },
+    "2024-07-15": {
+      "Emilio Cobos Alvarez": [
+        "svg",
+        "layout-text",
+        "layout-block-inline",
+        "layout-grid",
+        "layout-columns",
+        "layout-generated",
+        "layout-general",
+        "layout-tables"
+      ],
+      "Daniel Holbert": [
+        "animation",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "printing",
+        "style-system"
+      ]
+    },
+    "2024-07-22": {
+      "David Shin": [
+        "animation",
+        "layout-tables",
+        "layout-floats",
+        "layout-generated",
+        "layout-block-inline",
+        "layout-replaced",
+        "svg",
+        "layout-text"
+      ],
+      "Tiaan Louw": [
+        "layout-columns",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-general",
+        "layout-grid",
+        "layout-positioned",
+        "layout-ruby",
+        "printing",
+        "style-system"
+      ]
     }
   }
 }
