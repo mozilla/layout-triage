@@ -6063,6 +6063,98 @@
         "printing",
         "style-system"
       ]
+    },
+    "2024-07-29": {
+      "Emily McDonough": [
+        "layout-generated",
+        "layout-columns",
+        "layout-text",
+        "layout-floats",
+        "style-system",
+        "layout-general",
+        "animation",
+        "layout-grid"
+      ],
+      "Boris Chiou": [
+        "layout-block-inline",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "printing",
+        "svg"
+      ]
+    },
+    "2024-08-05": {
+      "Ting-Yu Lin": [
+        "layout-generated",
+        "animation",
+        "style-system",
+        "layout-ruby",
+        "layout-grid",
+        "layout-flex",
+        "layout-text",
+        "layout-form-controls"
+      ],
+      "Jonathan Kew": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-floats",
+        "layout-general",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables",
+        "printing",
+        "svg"
+      ]
+    },
+    "2024-08-12": {
+      "Jonathan Watt": [
+        "layout-columns",
+        "layout-form-controls",
+        "layout-general",
+        "animation",
+        "layout-grid",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-flex"
+      ],
+      "Emilio Cobos Alvarez": [
+        "layout-block-inline",
+        "layout-floats",
+        "layout-generated",
+        "layout-replaced",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2024-08-19": {
+      "Daniel Holbert": [
+        "layout-tables",
+        "animation",
+        "layout-generated",
+        "layout-text",
+        "layout-replaced",
+        "layout-general",
+        "layout-positioned",
+        "layout-columns"
+      ],
+      "David Shin": [
+        "layout-block-inline",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-ruby",
+        "printing",
+        "style-system",
+        "svg"
+      ]
     }
   }
 }
