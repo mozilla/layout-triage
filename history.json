@@ -6385,6 +6385,98 @@
         "layout-text",
         "printing"
       ]
+    },
+    "2024-11-04": {
+      "Boris Chiou": [
+        "layout-flex",
+        "svg",
+        "layout-text",
+        "layout-form-controls",
+        "style-system",
+        "layout-ruby",
+        "layout-replaced",
+        "printing"
+      ],
+      "Ting-Yu Lin": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-floats",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-tables"
+      ]
+    },
+    "2024-11-11": {
+      "Jonathan Kew": [
+        "layout-floats",
+        "layout-block-inline",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-form-controls",
+        "layout-general",
+        "layout-columns",
+        "layout-generated"
+      ],
+      "Jonathan Watt": [
+        "animation",
+        "layout-flex",
+        "layout-grid",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2024-11-18": {
+      "Emilio Cobos Alvarez": [
+        "layout-form-controls",
+        "layout-text",
+        "layout-grid",
+        "layout-generated",
+        "layout-replaced",
+        "printing",
+        "layout-ruby",
+        "animation"
+      ],
+      "Daniel Holbert": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-general",
+        "layout-positioned",
+        "layout-tables",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2024-11-25": {
+      "David Shin": [
+        "layout-floats",
+        "style-system",
+        "layout-flex",
+        "layout-text",
+        "animation",
+        "layout-tables",
+        "layout-grid",
+        "layout-generated"
+      ],
+      "Tiaan Louw": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-form-controls",
+        "layout-general",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "printing",
+        "svg"
+      ]
     }
   }
 }
