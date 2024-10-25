@@ -6477,6 +6477,52 @@
         "printing",
         "svg"
       ]
+    },
+    "2024-12-02": {
+      "Emily McDonough": [
+        "layout-tables",
+        "layout-columns",
+        "layout-form-controls",
+        "layout-floats",
+        "svg",
+        "layout-generated",
+        "layout-text",
+        "layout-block-inline"
+      ],
+      "Boris Chiou": [
+        "animation",
+        "layout-flex",
+        "layout-general",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "printing",
+        "style-system"
+      ]
+    },
+    "2024-12-09": {
+      "Ting-Yu Lin": [
+        "layout-tables",
+        "printing",
+        "layout-general",
+        "layout-generated",
+        "layout-form-controls",
+        "layout-positioned",
+        "layout-floats",
+        "svg"
+      ],
+      "Jonathan Kew": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-grid",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-text",
+        "style-system"
+      ]
     }
   }
 }
