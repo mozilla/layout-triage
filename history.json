@@ -7167,6 +7167,52 @@
         "layout-text",
         "printing"
       ]
+    },
+    "2025-06-30": {
+      "Daniel Holbert": [
+        "layout-floats",
+        "printing",
+        "layout-general",
+        "layout-tables",
+        "layout-columns",
+        "layout-flex",
+        "layout-block-inline",
+        "layout-positioned"
+      ],
+      "David Shin": [
+        "animation",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-grid",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-text",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2025-07-07": {
+      "Tiaan Louw": [
+        "layout-block-inline",
+        "layout-ruby",
+        "layout-grid",
+        "animation",
+        "printing",
+        "layout-positioned",
+        "svg",
+        "layout-flex"
+      ],
+      "Emily McDonough": [
+        "layout-columns",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-general",
+        "layout-generated",
+        "layout-replaced",
+        "layout-tables",
+        "layout-text",
+        "style-system"
+      ]
     }
   }
 }
