@@ -7213,6 +7213,52 @@
         "layout-text",
         "style-system"
       ]
+    },
+    "2025-07-14": {
+      "Boris Chiou": [
+        "layout-replaced",
+        "layout-text",
+        "layout-form-controls",
+        "style-system",
+        "layout-general",
+        "printing",
+        "svg",
+        "layout-ruby"
+      ],
+      "Ting-Yu Lin": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-tables"
+      ]
+    },
+    "2025-07-21": {
+      "Jonathan Kew": [
+        "layout-form-controls",
+        "animation",
+        "svg",
+        "printing",
+        "layout-replaced",
+        "layout-generated",
+        "layout-grid",
+        "layout-columns"
+      ],
+      "Jonathan Watt": [
+        "layout-block-inline",
+        "layout-flex",
+        "layout-floats",
+        "layout-general",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "style-system"
+      ]
     }
   }
 }
