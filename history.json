@@ -7259,6 +7259,52 @@
         "layout-text",
         "style-system"
       ]
+    },
+    "2025-07-28": {
+      "Emilio Cobos Alvarez": [
+        "layout-grid",
+        "layout-general",
+        "layout-tables",
+        "layout-columns",
+        "layout-positioned",
+        "layout-floats",
+        "layout-generated",
+        "layout-ruby"
+      ],
+      "Daniel Holbert": [
+        "animation",
+        "layout-block-inline",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-replaced",
+        "layout-text",
+        "printing",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2025-08-04": {
+      "David Shin": [
+        "layout-generated",
+        "layout-columns",
+        "layout-positioned",
+        "svg",
+        "layout-replaced",
+        "layout-floats",
+        "layout-form-controls",
+        "printing"
+      ],
+      "Tiaan Louw": [
+        "animation",
+        "layout-block-inline",
+        "layout-flex",
+        "layout-general",
+        "layout-grid",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "style-system"
+      ]
     }
   }
 }
