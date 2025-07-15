@@ -7305,6 +7305,98 @@
         "layout-text",
         "style-system"
       ]
+    },
+    "2025-08-11": {
+      "Emily McDonough": [
+        "layout-grid",
+        "layout-block-inline",
+        "layout-text",
+        "printing",
+        "animation",
+        "layout-positioned",
+        "layout-general",
+        "style-system"
+      ],
+      "Boris Chiou": [
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "svg"
+      ]
+    },
+    "2025-08-18": {
+      "Ting-Yu Lin": [
+        "layout-positioned",
+        "layout-generated",
+        "layout-replaced",
+        "layout-block-inline",
+        "layout-grid",
+        "layout-general",
+        "layout-columns",
+        "layout-floats"
+      ],
+      "Jonathan Kew": [
+        "animation",
+        "layout-flex",
+        "layout-form-controls",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2025-08-25": {
+      "Jonathan Watt": [
+        "layout-form-controls",
+        "layout-block-inline",
+        "layout-generated",
+        "layout-columns",
+        "layout-floats",
+        "layout-text",
+        "layout-grid",
+        "printing"
+      ],
+      "Emilio Cobos Alvarez": [
+        "animation",
+        "layout-flex",
+        "layout-general",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2025-09-01": {
+      "Daniel Holbert": [
+        "layout-tables",
+        "layout-text",
+        "svg",
+        "layout-columns",
+        "layout-block-inline",
+        "layout-form-controls",
+        "printing",
+        "layout-generated"
+      ],
+      "David Shin": [
+        "animation",
+        "layout-flex",
+        "layout-floats",
+        "layout-general",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "style-system"
+      ]
     }
   }
 }
