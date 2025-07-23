@@ -7397,6 +7397,29 @@
         "layout-ruby",
         "style-system"
       ]
+    },
+    "2025-09-08": {
+      "Tiaan Louw": [
+        "layout-grid",
+        "layout-general",
+        "layout-ruby",
+        "layout-columns",
+        "animation",
+        "layout-tables",
+        "svg",
+        "printing"
+      ],
+      "Emily McDonough": [
+        "layout-block-inline",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-text",
+        "style-system"
+      ]
     }
   }
 }
