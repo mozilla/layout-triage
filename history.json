@@ -7696,6 +7696,98 @@
         "layout-replaced",
         "printing"
       ]
+    },
+    "2025-12-08": {
+      "David Shin": [
+        "animation",
+        "layout-positioned",
+        "layout-form-controls",
+        "layout-text",
+        "layout-floats",
+        "layout-replaced",
+        "layout-grid",
+        "layout-block-inline"
+      ],
+      "Tiaan Louw": [
+        "layout-columns",
+        "layout-flex",
+        "layout-general",
+        "layout-generated",
+        "layout-ruby",
+        "layout-tables",
+        "printing",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2025-12-15": {
+      "Emily McDonough": [
+        "layout-ruby",
+        "animation",
+        "layout-grid",
+        "layout-positioned",
+        "layout-form-controls",
+        "layout-text",
+        "style-system",
+        "layout-flex"
+      ],
+      "Boris Chiou": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-floats",
+        "layout-general",
+        "layout-generated",
+        "layout-replaced",
+        "layout-tables",
+        "printing",
+        "svg"
+      ]
+    },
+    "2025-12-22": {
+      "Ting-Yu Lin": [
+        "animation",
+        "style-system",
+        "layout-columns",
+        "printing",
+        "svg",
+        "layout-positioned",
+        "layout-tables",
+        "layout-block-inline"
+      ],
+      "Jonathan Kew": [
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-text"
+      ]
+    },
+    "2025-12-29": {
+      "Jonathan Watt": [
+        "layout-ruby",
+        "layout-tables",
+        "animation",
+        "layout-general",
+        "layout-block-inline",
+        "svg",
+        "layout-positioned",
+        "layout-columns"
+      ],
+      "Emilio Cobos Alvarez": [
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-grid",
+        "layout-replaced",
+        "layout-text",
+        "printing",
+        "style-system"
+      ]
     }
   }
 }
