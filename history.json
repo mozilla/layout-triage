@@ -7788,6 +7788,144 @@
         "printing",
         "style-system"
       ]
+    },
+    "2026-01-05": {
+      "Daniel Holbert": [
+        "layout-flex",
+        "layout-grid",
+        "layout-replaced",
+        "layout-text",
+        "printing",
+        "layout-columns",
+        "layout-block-inline",
+        "layout-general"
+      ],
+      "David Shin": [
+        "animation",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-tables",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2026-01-12": {
+      "Tiaan Louw": [
+        "layout-generated",
+        "layout-ruby",
+        "svg",
+        "layout-grid",
+        "animation",
+        "layout-columns",
+        "layout-replaced",
+        "layout-positioned"
+      ],
+      "Emily McDonough": [
+        "layout-block-inline",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-general",
+        "layout-tables",
+        "layout-text",
+        "printing",
+        "style-system"
+      ]
+    },
+    "2026-01-19": {
+      "Boris Chiou": [
+        "layout-columns",
+        "layout-ruby",
+        "layout-block-inline",
+        "layout-floats",
+        "layout-generated",
+        "animation",
+        "layout-text",
+        "layout-flex"
+      ],
+      "Ting-Yu Lin": [
+        "layout-form-controls",
+        "layout-general",
+        "layout-grid",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables",
+        "printing",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2026-01-26": {
+      "Jonathan Kew": [
+        "printing",
+        "layout-generated",
+        "layout-grid",
+        "layout-ruby",
+        "layout-flex",
+        "layout-block-inline",
+        "animation",
+        "style-system"
+      ],
+      "Jonathan Watt": [
+        "layout-columns",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-general",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-tables",
+        "layout-text",
+        "svg"
+      ]
+    },
+    "2026-02-02": {
+      "Emilio Cobos Alvarez": [
+        "layout-form-controls",
+        "style-system",
+        "layout-grid",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-tables",
+        "animation",
+        "layout-replaced"
+      ],
+      "Daniel Holbert": [
+        "layout-flex",
+        "layout-floats",
+        "layout-general",
+        "layout-generated",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-text",
+        "printing",
+        "svg"
+      ]
+    },
+    "2026-02-09": {
+      "David Shin": [
+        "layout-flex",
+        "layout-columns",
+        "layout-text",
+        "style-system",
+        "printing",
+        "svg",
+        "layout-form-controls",
+        "layout-replaced"
+      ],
+      "Tiaan Louw": [
+        "animation",
+        "layout-block-inline",
+        "layout-floats",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-tables"
+      ]
     }
   }
 }
