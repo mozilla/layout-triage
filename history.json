@@ -8478,6 +8478,190 @@
         "layout-text",
         "printing"
       ]
+    },
+    "2026-08-03": {
+      "Jonathan Kew": [
+        "layout-tables",
+        "style-system",
+        "layout-grid",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-flex",
+        "layout-generated",
+        "printing"
+      ],
+      "Jonathan Watt": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-general",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-text",
+        "svg"
+      ]
+    },
+    "2026-08-10": {
+      "Emilio Cobos Alvarez": [
+        "layout-text",
+        "style-system",
+        "layout-grid",
+        "layout-positioned",
+        "layout-general",
+        "svg",
+        "layout-tables",
+        "layout-block-inline"
+      ],
+      "Daniel Holbert": [
+        "animation",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-replaced",
+        "layout-ruby",
+        "printing"
+      ]
+    },
+    "2026-08-17": {
+      "David Shin": [
+        "layout-grid",
+        "style-system",
+        "printing",
+        "layout-block-inline",
+        "layout-tables",
+        "layout-flex",
+        "layout-ruby",
+        "layout-form-controls"
+      ],
+      "Tiaan Louw": [
+        "animation",
+        "layout-columns",
+        "layout-floats",
+        "layout-general",
+        "layout-generated",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-text",
+        "svg"
+      ]
+    },
+    "2026-08-24": {
+      "Emily McDonough": [
+        "layout-text",
+        "layout-positioned",
+        "layout-floats",
+        "layout-ruby",
+        "layout-columns",
+        "style-system",
+        "layout-form-controls",
+        "layout-tables"
+      ],
+      "Boris Chiou": [
+        "animation",
+        "layout-block-inline",
+        "layout-flex",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-replaced",
+        "printing",
+        "svg"
+      ]
+    },
+    "2026-08-31": {
+      "Ting-Yu Lin": [
+        "printing",
+        "animation",
+        "layout-grid",
+        "svg",
+        "layout-flex",
+        "layout-block-inline",
+        "layout-replaced",
+        "layout-form-controls"
+      ],
+      "Jonathan Kew": [
+        "layout-columns",
+        "layout-floats",
+        "layout-general",
+        "layout-generated",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "style-system"
+      ]
+    },
+    "2026-09-07": {
+      "Jonathan Watt": [
+        "layout-flex",
+        "layout-generated",
+        "layout-grid",
+        "printing",
+        "layout-general",
+        "layout-floats",
+        "layout-positioned",
+        "layout-block-inline"
+      ],
+      "Emilio Cobos Alvarez": [
+        "animation",
+        "layout-columns",
+        "layout-form-controls",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "style-system",
+        "svg"
+      ]
+    },
+    "2026-09-14": {
+      "Daniel Holbert": [
+        "layout-form-controls",
+        "printing",
+        "style-system",
+        "layout-general",
+        "layout-replaced",
+        "layout-flex",
+        "layout-block-inline",
+        "layout-tables"
+      ],
+      "David Shin": [
+        "animation",
+        "layout-columns",
+        "layout-floats",
+        "layout-generated",
+        "layout-grid",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-text",
+        "svg"
+      ]
+    },
+    "2026-09-21": {
+      "Tiaan Louw": [
+        "layout-text",
+        "layout-positioned",
+        "style-system",
+        "layout-general",
+        "layout-form-controls",
+        "layout-tables",
+        "layout-replaced",
+        "layout-ruby"
+      ],
+      "Emily McDonough": [
+        "animation",
+        "layout-block-inline",
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-generated",
+        "layout-grid",
+        "printing",
+        "svg"
+      ]
     }
   }
 }
