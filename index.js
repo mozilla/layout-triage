@@ -200,25 +200,46 @@ function generateIcsFile({ dutyCycleHistory, components }) {
 }
 
 function generateDutyCycle({ dutyCycleHistory, triagers, components }) {
-  let { lastDutyDate, lastTriagePair } = getLastDutyCycle({ dutyCycleHistory })
-  let lastTriagerIdx = -1;
   const triagerNames = Object.keys(triagers);
   const componentNames = Object.keys(components);
 
-  if (!lastDutyDate || !Array.isArray(lastTriagePair) || lastTriagePair.length !== 2) {
+  if (triagerNames.length < 2) {
+    throw `\nFATAL ERROR: Need at least 2 triagers in config, found ${triagerNames.length}`;
+  }
+
+  // Determine the date of the next duty cycle, based on the most recent one.
+  let { lastDutyDate } = getLastDutyCycle({ dutyCycleHistory });
+  if (!lastDutyDate) {
     console.warn('No existing duty cycle history. Generating first cycle.');
     lastDutyDate = createDateString(getLastMonday(new Date()));
-  } else {
-    lastTriagerIdx = triagerNames.indexOf(lastTriagePair[1]);
-    if (lastTriagerIdx === -1) {
-      console.warn(`Unable to find triager named ${lastTriagePair[1]} in config. Starting over from first triager.`);
+  }
+  const nextDutyDateMS = new Date(lastDutyDate).getTime() + CYCLE_LENGTH_MS;
+  const nextDutyDate = createDateString(new Date(nextDutyDateMS));
+
+  // For each triager, find the most recent cycle date on which they served.
+  // Triagers who have never served are treated as the most overdue.
+  const lastServed = {};
+  for (const date of Object.keys(dutyCycleHistory)) {
+    for (const name of Object.keys(dutyCycleHistory[date])) {
+      if (!lastServed[name] || date > lastServed[name]) {
+        lastServed[name] = date;
+      }
     }
   }
 
-  const nextTriagerIdx = (lastTriagerIdx + 1) % triagerNames.length;
-  const nextDutyDateMS = new Date(lastDutyDate).getTime() + CYCLE_LENGTH_MS;
-  const nextTriagePair = [triagerNames[nextTriagerIdx], triagerNames[(nextTriagerIdx +1 ) % triagerNames.length]];
-  const nextDutyDate = createDateString(new Date(nextDutyDateMS));
+  // Rank triagers by how long ago they last served, oldest (or never) first,
+  // breaking ties by their order in the config file for determinism. Date
+  // strings are YYYY-MM-DD, so lexical comparison is chronological; '' (never
+  // served) sorts before any real date. Pick the two most overdue.
+  const nextTriagePair = triagerNames
+    .map((name, idx) => ({ name, idx, lastServed: lastServed[name] || '' }))
+    .sort((a, b) =>
+      a.lastServed < b.lastServed ? -1 :
+      a.lastServed > b.lastServed ? 1 :
+      a.idx - b.idx
+    )
+    .slice(0, 2)
+    .map(t => t.name);
   const firstComponentSet = selectRandom(componentNames, Math.floor(componentNames.length / 2));
   const secondComponentSet = componentNames.filter(c => firstComponentSet.indexOf(c) === -1);
   const dutyCycle = {};
