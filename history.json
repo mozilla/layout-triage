@@ -8823,6 +8823,190 @@
         "printing",
         "style-system"
       ]
+    },
+    "2026-11-16": {
+      "Tiaan Louw": [
+        "layout-grid",
+        "layout-ruby",
+        "printing",
+        "layout-positioned",
+        "layout-form-controls",
+        "layout-block-inline",
+        "svg",
+        "layout-floats"
+      ],
+      "Emily McDonough": [
+        "animation",
+        "layout-columns",
+        "layout-flex",
+        "layout-general",
+        "layout-generated",
+        "layout-replaced",
+        "layout-tables",
+        "layout-text",
+        "style-system"
+      ]
+    },
+    "2026-11-23": {
+      "Boris Chiou": [
+        "layout-columns",
+        "layout-positioned",
+        "layout-tables",
+        "layout-floats",
+        "layout-text",
+        "layout-block-inline",
+        "svg",
+        "layout-flex"
+      ],
+      "Ting-Yu Lin": [
+        "animation",
+        "layout-form-controls",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-replaced",
+        "layout-ruby",
+        "printing",
+        "style-system"
+      ]
+    },
+    "2026-11-30": {
+      "Jonathan Kew": [
+        "layout-block-inline",
+        "svg",
+        "layout-general",
+        "style-system",
+        "layout-grid",
+        "animation",
+        "layout-replaced",
+        "layout-ruby"
+      ],
+      "Jonathan Watt": [
+        "layout-columns",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-generated",
+        "layout-positioned",
+        "layout-tables",
+        "layout-text",
+        "printing"
+      ]
+    },
+    "2026-12-07": {
+      "Emilio Cobos Alvarez": [
+        "layout-flex",
+        "animation",
+        "layout-general",
+        "layout-text",
+        "layout-columns",
+        "layout-replaced",
+        "style-system",
+        "layout-generated"
+      ],
+      "Daniel Holbert": [
+        "layout-block-inline",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-tables",
+        "printing",
+        "svg"
+      ]
+    },
+    "2026-12-14": {
+      "David Shin": [
+        "svg",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-positioned",
+        "layout-block-inline",
+        "layout-flex",
+        "printing"
+      ],
+      "Tiaan Louw": [
+        "animation",
+        "layout-columns",
+        "layout-general",
+        "layout-generated",
+        "layout-replaced",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "style-system"
+      ]
+    },
+    "2026-12-21": {
+      "Emily McDonough": [
+        "layout-tables",
+        "layout-flex",
+        "layout-positioned",
+        "style-system",
+        "layout-floats",
+        "layout-ruby",
+        "svg",
+        "animation"
+      ],
+      "Boris Chiou": [
+        "layout-block-inline",
+        "layout-columns",
+        "layout-form-controls",
+        "layout-general",
+        "layout-generated",
+        "layout-grid",
+        "layout-replaced",
+        "layout-text",
+        "printing"
+      ]
+    },
+    "2026-12-28": {
+      "Ting-Yu Lin": [
+        "layout-general",
+        "style-system",
+        "layout-columns",
+        "layout-floats",
+        "layout-flex",
+        "layout-generated",
+        "layout-replaced",
+        "svg"
+      ],
+      "Jonathan Kew": [
+        "animation",
+        "layout-block-inline",
+        "layout-form-controls",
+        "layout-grid",
+        "layout-positioned",
+        "layout-ruby",
+        "layout-tables",
+        "layout-text",
+        "printing"
+      ]
+    },
+    "2027-01-04": {
+      "Jonathan Watt": [
+        "layout-ruby",
+        "layout-generated",
+        "layout-tables",
+        "printing",
+        "svg",
+        "layout-grid",
+        "style-system",
+        "layout-columns"
+      ],
+      "Emilio Cobos Alvarez": [
+        "animation",
+        "layout-block-inline",
+        "layout-flex",
+        "layout-floats",
+        "layout-form-controls",
+        "layout-general",
+        "layout-positioned",
+        "layout-replaced",
+        "layout-text"
+      ]
     }
   }
 }
